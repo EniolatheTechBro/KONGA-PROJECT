@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    /* background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png'); */
+}
+
 header .nav1ads a img{
     text-decoration: none;
     height: 11vh;
@@ -170,13 +174,12 @@ header .nav3 .nav3div .nav3links .helplink {
 }
 
 
-
-
-
+/* dropdown for help link */
 
 .helpdropdown{
     position: relative;
     display: inline-block;
+    z-index: 1;
     
 }
 
@@ -185,11 +188,13 @@ header .nav3 .nav3div .nav3links .helplink {
     min-height: 10vh;
     min-width:200% ;
     background-color: #FFFFFF;
-    /* display: none; */
+    /* background-color: red; */
+    display: none;   
     /* background-color: green; */
     top: 50px;
-    transition: 0.5s;
-    transform: translateY(10px);
+    transition: 2s;
+    
+    
 }
 
 .helpdropcontents div a{
@@ -204,7 +209,6 @@ header .nav3 .nav3div .nav3links .helplink {
 .helpdropdown:hover .helpdropcontents{
     display: block;
     transform: translateY(10px);
-  
 }
 
 .helpdropcontents div a:hover{
@@ -271,7 +275,53 @@ header .nav3 .nav3div .nav3links .cart .number{
    color: black;
 }
 
+/* nav4 */
 
+header .nav4{
+
+    background-color: #94004f;
+}
+
+header .nav4 .nav4links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav4 .nav4links a{
+    text-decoration: none;
+    color: white;
+    font: 13px;
+}
+
+header .nav4 .nav4links .categories{
+    padding: 12px 24px;
+}
+
+header .nav4 .nav4links .computer{
+    padding: 12px 15px;
+}
+
+header .nav4 .nav4links .phones{
+    padding: 12px 15px;
+}
+
+header .nav4 .nav4links .Electronics{
+    padding: 12px 15px;
+}
+
+header .nav4 .nav4links .Fashion{
+    padding: 12px 15px;
+}
+header .nav4 .nav4links .HomeKitchen{
+    padding: 12px 15px;
+}
+header .nav4 .nav4links .BabyToys{
+    padding: 12px 15px;
+}
+header .nav4 .nav4links .others{
+    padding: 12px 15px;
+}
 
 
 

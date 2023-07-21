@@ -274,7 +274,7 @@ header .nav3 .nav3div .nav3links .cart .number{
    color: black;
 }
 
-/* nav4 */
+/* nav4 styling starts here*/
 
 header .nav4{
 
@@ -323,7 +323,10 @@ header .nav4 .nav4links .others{
 }
 
 
-/* dropdown styling for categories */
+/* categories dropdown styling*/
+
+
+
 header .nav4 .nav4links .categ{
 
     position: relative;
@@ -347,21 +350,10 @@ header .nav4 .nav4links .categ .categoriesdropdown a{
 }
 
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
-
-    padding: 5px 0;
-    list-style-type: none;
-} 
-
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
-
-    padding: 20px;
-}
-
 header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
 
     background-color: red;
-    width: 35%;
+    width: 25%;
     display: inline-block;
     padding-top: 20px;
 }
@@ -402,7 +394,44 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li a{
     width: 100%;
 }
 
+/* 2nd div within the dropdowns */
 
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd{
+
+    /* background-color: aqua; */
+    width: 75%;
+    padding: 30px 30px 30px 0px;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .comprow{
+
+    /* background-color: yellow; */
+    font-size: 13px;
+    
+    
+}
+
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
+
+    padding: 5px 0;
+    list-style-type: none;
+    /* background-color: red; */
+    /* width: 100%; */
+} 
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
+
+    display: flex;
+    gap: 30px;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .comprow{
+
+    display: grid;
+    grid-template-areas:'. . . .'
+                        '. . . .';
+}
 
 
 

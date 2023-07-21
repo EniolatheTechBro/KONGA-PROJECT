@@ -10,7 +10,7 @@ body{
 
 header .nav1ads a img{
     text-decoration: none;
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     margin: auto;
 }
@@ -18,20 +18,19 @@ header .nav1ads a img{
 header .nav2{
 
     background-color: #F6F6F6;
-    height: 6vh;
-    /* margin-top: -5px; */
-    text-align: center;
-    padding: 5px;
+    min-height: 5vh;
+    margin-top: -2px;
+    
+    /* padding-top: 10px; */
 }
 
 header .nav2 .navimg{
-
-    /* background-color: red; */
-    width: 72%;
-    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: center; 
 
 }
 
@@ -63,7 +62,7 @@ header .nav3 .nav3div{
     margin: auto;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 65px;
 }
 
 header .nav3 .nav3div .logo{
@@ -324,6 +323,84 @@ header .nav4 .nav4links .others{
 }
 
 
+/* dropdown styling for categories */
+header .nav4 .nav4links .categ{
+
+    position: relative;
+    display: inline-block;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown{
+
+    top: 36px;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-height: 50vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown a{
+
+        color: black;
+}
+
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
+
+    padding: 5px 0;
+    list-style-type: none;
+} 
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
+
+    padding: 20px;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
+
+    background-color: red;
+    width: 35%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
+
+
+   
+    /* background-color: blue; */
+    list-style-type: none;
+    margin-left: -30px;
+    width: 100%; 
+    
+}
+
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul{
+
+    background-color: green;
+    font-size: 1em;
+    /* min-height: 10vh; */
+    line-height: 2.5rem;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
+
+    background-color: yellow;
+    width: 100%;
+}
+
+
+header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li a{
+
+    background-color: blue;
+    /* padding: 11px 42px 11px 11px; */
+    padding: 11px 30px;
+    width: 100%;
+}
 
 
 

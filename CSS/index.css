@@ -5,12 +5,13 @@
 }
 
 body{
+    /* max-width: 100%; */
     /* background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png'); */
 }
 
 header .nav1ads a img{
     text-decoration: none;
-    height: 10vh;
+    height: auto;
     width: 100%;
     margin: auto;
 }
@@ -19,14 +20,16 @@ header .nav2{
 
     background-color: #F6F6F6;
     min-height: 5vh;
-    margin-top: -2px;
+    margin-top: -0.125rem;
+    width: 100%;
+    padding: 0 1.25rem;
     
     /* padding-top: 10px; */
 }
 
 header .nav2 .navimg{
-    width: 100%;
-    padding: 10px;
+    
+    padding: 0.625rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -41,14 +44,20 @@ header .nav2 .navimg a{
 header .nav2 .navimg a img{
    
     height: 3vh;
-    padding-right: 50px;  
+    padding-right: 3.125rem;  
 }
 
 
 /* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
 
 header .nav3{
     background-color: #ed017f;
+    padding: 0 1.875rem;
+    
 
 }
 
@@ -57,29 +66,23 @@ header .nav3 .nav3div .logo a img{
 }
 
 header .nav3 .nav3div{
-    width: 97%;
-    /* background-color: green; */
-    margin: auto;
+    
     display: flex;
     align-items: center;
-    height: 65px;
+    gap: 1rem;
+    height: 3.75rem;
+    max-width: 100%;
 }
 
 header .nav3 .nav3div .logo{
-
-    /* background-color: blue; */
-    /* height: 5vh; */
-    width: 10%;
-    margin-right: 30px;
+    width: 15%;
 }
 
 header .nav3 .nav3div .nav3links{
-   width: 90%;
-   /* background-color: yellow; */
+   width: 85%;
    display: flex;
    align-items: center;
-   height: 60px;
-   
+   height: 3.75rem;
 }
 
 header .nav3 .nav3div .nav3links a{
@@ -89,15 +92,15 @@ header .nav3 .nav3div .nav3links a{
 
 header .nav3 .nav3div .nav3links #searchbutton{
 
-    width: 50%;
-    font-size: 13px!important;
-    height: 35px;
+    min-width: 48%;
+    font-size: 0.813rem!important;
+    height: 2.188rem;
 
 }
 
 header .nav3 .nav3div .nav3links #searchbutton input{
 
-    font-size: 13px!important;
+    font-size: 0.813rem!important;
    
 
 }
@@ -108,18 +111,19 @@ header .nav3 .nav3div .nav3links #searchbutton .searchbut{
 
 header .nav3 .nav3div .nav3links #searchbutton button .fa-solid{
 
-    font-size: 12px;
+    font-size: 0.75rem;
 
 }
 header .nav3 .nav3div .nav3links .storelink{
     /* background-color: red; */
-    padding: 15px 16px;
-    padding-right: 50px;
-    /* margin-top: 10px; */
-    font-size: 13px;
+    padding: .9375rem;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+    /* padding-left: 35px; */
+    font-size: 1rem;
     line-height: 1;
     color: #FFFFFF;
-    height: 60px;
+    height: 100%;
     transition: 0.5s;
 }
 
@@ -131,13 +135,16 @@ header .nav3 .nav3div .nav3links .storelink:hover{
 
 header .nav3 .nav3div .nav3links .sellonkonga{
     /* background-color: orange; */
-    padding: 10.5px 16px;
-    padding-right: 50px;
-    font-size: 13px;
+    padding: 1rem;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+    font-size: 1rem;
     line-height: 1;
     color: #FFFFFF;
-    height: 60px;
+    height: 100%;
     transition: 0.5s;
+    white-space: nowrap;
+    display: block;
 }
 
 header .nav3 .nav3div .nav3links .sellonkonga:hover{
@@ -149,14 +156,16 @@ header .nav3 .nav3div .nav3links .sellonkonga:hover{
 header .nav3 .nav3div .nav3links  .helplink{
     /* background-color: green; */
     display: flex;
-    align-items: center;
-    padding: 10.5px 16px;
-    font-size: 13px;
+    align-items: center;   
+    font-size: 1rem;
     line-height: 1;
     color: #FFFFFF;
     gap: 0.5rem;
-    height: 60px;
+    height: 3.75rem;
     transition: 0.5s;
+    padding: 1.875rem 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 header .nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
@@ -164,14 +173,6 @@ header .nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
     background-color: #FFFFFF;
     color: #ed017f;
 }
-
-header .nav3 .nav3div .nav3links .helplink {
-    display: flex;
-    align-items: center;
-    line-height: 1;
-    color: #FFFFFF;
-}
-
 
 /* dropdown for help link */
 
@@ -190,7 +191,7 @@ header .nav3 .nav3div .nav3links .helplink {
     /* background-color: red; */
     display: none;   
     /* background-color: green; */
-    top: 50px;
+    top: 3.125rem;
     transition: 2s;
     
     
@@ -199,15 +200,15 @@ header .nav3 .nav3div .nav3links .helplink {
 .helpdropcontents div a{
     color: black;
     line-height: 2.5rem;
-    font-size: 13px;
-    padding: 10px 50px 10px 20px;
+    font-size: 1rem;
+    padding: 0.625rem 3.125rem 0.625rem 1.25rem;
     /* background-color: blue; */
     
 }
 
 .helpdropdown:hover .helpdropcontents{
     display: block;
-    transform: translateY(10px);
+    /* transform: translateY(10px); */
 }
 
 .helpdropcontents div a:hover{
@@ -223,13 +224,16 @@ header .nav3 .nav3div .nav3links .helplink {
 
 header .nav3 .nav3div .nav3links .login{
     /* background-color: red; */
-    padding: 10.5px 16px;
-    padding-right: 50px;
-    font-size: 13px;
+    padding: .9375rem; 
+    font-size: 1rem;
     line-height: 1;
     color: #FFFFFF;
-    height: 60px;
+    height: 3.75rem;
     transition: 0.5s;
+    white-space: nowrap;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+
 }
 
 header .nav3 .nav3div .nav3links .login:hover{
@@ -242,15 +246,14 @@ header .nav3 .nav3div .nav3links .login:hover{
 header .nav3 .nav3div .nav3links .cart{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 0.5rem;
     background-color: #33b27b;
-    border-radius: 3px;
-    padding: 20px 25px;
-    margin-left: 8px;
+    border-radius: 0.188rem;
+    padding: 1.563rem 1.563rem;
+    margin-left: 0.5rem;
     color: white;
-    font-size: 13px;
-    height: 35px;
+    font-size: 1rem;
+    height: 2.188rem;
     transition: 0.5s;
 }
 
@@ -262,23 +265,33 @@ header .nav3 .nav3div .nav3links .cart:hover{
 header .nav3 .nav3div .nav3links .cart p{
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin-top: 15px;
+    gap: 0.313rem;
+    margin-top: 0.938rem;
 }
 
 header .nav3 .nav3div .nav3links .cart .number{
    background-color: rgb(255, 255, 255);
-   padding: 6px 4px;
-   margin-left: 8px;
-   border-radius: 3px;
+   padding: 0.188rem 0.375rem;
+   margin-left: 0.5rem;
+   border-radius: 0.188rem;
    color: black;
+   
 }
 
+
+
+
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
 /* nav4 styling starts here*/
 
 header .nav4{
 
     background-color: #94004f;
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 header .nav4 .nav4links{
@@ -290,36 +303,36 @@ header .nav4 .nav4links{
 header .nav4 .nav4links a{
     text-decoration: none;
     color: white;
-    font: 13px;
 }
 
 header .nav4 .nav4links .categories{
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
+    height: 100%;
 }
 
 header .nav4 .nav4links .computer{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 
 header .nav4 .nav4links .phones{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 
 header .nav4 .nav4links .Electronics{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 
 header .nav4 .nav4links .Fashion{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 header .nav4 .nav4links .HomeKitchen{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 header .nav4 .nav4links .BabyToys{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 header .nav4 .nav4links .others{
-    padding: 12px 15px;
+    padding: 0.75rem 0.938rem;
 }
 
 
@@ -331,18 +344,40 @@ header .nav4 .nav4links .categ{
 
     position: relative;
     display: inline-block;
+    z-index: 1
 }
 
-header .nav4 .nav4links .categ .categoriesdropdown{
 
-    top: 36px;
+header .nav4 .nav4links .categ .Catdropdown{
+
+    top: 2.25rem;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: green;
     min-height: 50vh;
     width: 100vw;
-    display: flex;
+    display:none;
 
 }
+
+header .nav4 .nav4links .categories{
+    transition: 0.5s;
+}
+
+header .nav4 .nav4links .categories:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+header .nav4 .nav4links .categ:hover .nav4 .nav4links .categ .Catdropdown{
+    display: block;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown{ 
+    display: flex;
+    width:100%;
+}
+
+
 
 header .nav4 .nav4links .categ .categoriesdropdown a{
 
@@ -354,8 +389,8 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
 
     background-color: rgb(243, 243, 239);
     width: 25%;
-    padding-top: 20px;
-    margin-left: -30px;
+    padding-top: 1.25rem;
+    margin-left: -1.875rem;
 }
 
 
@@ -371,7 +406,7 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
 header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a{
 
     
-    padding: 11px 30px;
+    padding: 0.688 1.875rem;
    display: block;
     text-align: left;
 }
@@ -392,23 +427,24 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content 
 
 header .nav4 .nav4links .categ .categoriesdropdown .categ2nd{
 
-    /* background-color: aqua; */
+    background-color: #ffffff;
     width: 75%;
-    padding: 30px 30px 30px 0px;
+    padding: 1.875rem 1.875rem 301.875rem 0rem;
 }
 
 header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .comprow{
 
     /* background-color: yellow; */
-    font-size: 13px;
+    font-size: 0.813;
     
     
 }
 
 
+
 header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
 
-    padding: 5px 0;
+    padding: 0.313rem 0;
     list-style-type: none;
     /* background-color: red; */
     /* width: 100%; */
@@ -417,7 +453,7 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents u
 header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
 
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .comprow{
@@ -427,10 +463,407 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .
                         '. . . .';
 }
 
+header .navsmallscreen{
+    display: none;
+}
+/* responsiveness */
+/* responsiveness */
+/* responsiveness */
+/* responsiveness */
+
+
+@media(max-width:1440px){
+
+    header{
+       
+        max-width: 100%;
+        overflow:hidden;
+    }
+
+    header .nav3 .nav3div .logo a img{
+        height: 8vh;
+    }
+    
+
+}
+
+
+@media(max-width:1024px){
+
+    header{
+       
+        max-width: 100%;
+        /* overflow:hidden; */
+    }
+
+    header .nav2{
+
+        background-color: #F6F6F6;
+        height: auto;
+        /* background-color: red; */
+        
+        /* padding-top: 10px; */
+    }
+    /* header .nav3{
+        background-color: green;
+        
+    } */
+
+    header .nav3 .nav3div .logo a img{
+        height: 8vh;
+    }
+    
+    header .nav3 .nav3div{
+        gap: 0.5rem;
+        
+    }
+    
+    header .nav3 .nav3div .logo{
+        width: 15%;
+    }
+
+
+    header .nav3 .nav3div .nav3links{
+
+        max-width: 85%;
+    }
+    
+
+
+    header .nav3 .nav3div .nav3links  .storelink{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .sellonkonga{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .helplink{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .login{
+        
+        font-size: 0.8rem;
+        
+    }
+    
+
+    
+    header .nav3 .nav3div .nav3links .cart{
+        gap: 0.2rem;
+        padding: 1.1rem .6rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        height: 1.5rem;
+        line-height: 1rem;
+    }
+
+    header .nav3 .nav3div .nav3links .cart p{
+        gap: 0.313rem;
+        margin-top: 0.938rem;
+    }
+
+    header .nav3 .nav3div .nav3links .cart .number{
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.5rem;
+    
+    }
+
+
+    header .nav4 .nav4links .categories{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .computer{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .phones{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .Electronics{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .Fashion{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .HomeKitchen{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .BabyToys{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .Others{
+        font-size: 0.8rem;
+    }
+
+    
+}
 
 
 
 
+@media(max-width:768px){
+
+    header{
+       
+        max-width: 100%;
+        /* overflow:hidden; */
+    }
+
+    header .nav1ads a img{
+       display: none;
+    }
+
+    header .nav2{
+
+        background-color: #F6F6F6;
+        height: auto;
+    }
+   
+
+    header .nav3 .nav3div .logo a img{
+        height: 8vh;
+    }
+    
+    header .nav3 .nav3div{
+        gap: 0.8rem;
+        
+    }
+    
+    header .nav3 .nav3div .logo{
+        display: none;
+    }
+
+    header .nav3 .nav3div .nav3links  .storelink{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .sellonkonga{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .helplink{
+        
+        font-size: 0.8rem;
+        
+    }
+    header .nav3 .nav3div .nav3links  .login{
+        
+        font-size: 0.8rem;
+        
+    }
+    
+
+    
+    header .nav3 .nav3div .nav3links .cart{
+        gap: 0.2rem;
+        padding: 1.1rem .6rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        height: 1.5rem;
+        line-height: 1rem;
+    }
+
+    header .nav3 .nav3div .nav3links .cart p{
+        gap: 0.313rem;
+        margin-top: 0.938rem;
+    }
+
+    header .nav3 .nav3div .nav3links .cart .number{
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.5rem;
+    
+    }
 
 
+    header .nav4 .nav4links .categories{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .computer{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .phones{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .Electronics{
+        font-size: 0.8rem;
+    }
+    
+    header .nav4 .nav4links .Fashion{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .HomeKitchen{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .BabyToys{
+        font-size: 0.8rem;
+    }
+    header .nav4 .nav4links .Others{
+        font-size: 0.8rem;
+    }
 
+    
+}
+
+
+@media (max-width:767px) {
+
+    header .nav1ads a img{
+        display: block;
+     }
+
+
+    header .nav2,.nav3,.nav4{
+        display: none;
+    }
+
+    header .navsmallscreen .firstnav .logo a img{
+
+        height: 7vh;
+        margin-left: 0.625rem;
+    }
+
+    header .navsmallscreen .firstnav .logo a{
+
+        text-decoration: none;
+    }
+
+    header .navsmallscreen .firstnav .logo a i{
+        font-size:1rem ;
+        color: black;
+    }
+
+
+    header .navsmallscreen{
+        display: block;
+        /* background-color: red; */
+        padding: 0.625rem 0.938rem;
+    }
+
+    
+    header .navsmallscreen .firstnav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .navsmallscreen .searchbutton{
+        /* background-color: green; */
+        margin-top:0.625rem ;
+    }
+
+    header .navsmallscreen .firstnav .icon i{
+
+        margin-right: 0.625rem;
+       
+    }
+
+    header .navsmallscreen .smallnavlink{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0.625rem;
+        padding: 0.625rem;
+    
+    }
+
+    header .navsmallscreen .smallnavlink .brows a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    header .navsmallscreen .smallnavlink .fash a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    header .navsmallscreen .smallnavlink .comp a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    header .navsmallscreen .smallnavlink .phones a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    header .navsmallscreen .smallnavlink .alldeals a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+    
+}
+
+
+@media (max-width:425px){
+
+    header .navsmallscreen .smallnavlink{
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.625rem;
+        padding: 0.625rem 0;
+        font-size: 0.9rem;
+    
+    }
+
+}
+
+@media (max-width:375px){
+
+    header .navsmallscreen .smallnavlink{
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.625rem;
+        padding: 0.625rem 0;
+        font-size: 0.7rem;
+    
+    }
+
+}
+
+@media (max-width:320px){
+
+    header .navsmallscreen .smallnavlink{
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.625rem;
+        padding: 0.625rem 0;
+        font-size: 0.6rem;
+    
+    }
+
+}

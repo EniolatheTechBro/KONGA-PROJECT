@@ -6,7 +6,8 @@
 
 body{
     /* max-width: 100%; */
-    /* background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png'); */
+    background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png');
+    position: relative;
 }
 
 header .nav1ads a img{
@@ -23,8 +24,6 @@ header .nav2{
     margin-top: -0.125rem;
     width: 100%;
     padding: 0 1.25rem;
-    
-    /* padding-top: 10px; */
 }
 
 header .nav2 .navimg{
@@ -57,7 +56,8 @@ header .nav2 .navimg a img{
 header .nav3{
     background-color: #ed017f;
     padding: 0 1.875rem;
-    
+    /* position: fixed; */
+    z-index: 1;
 
 }
 
@@ -292,6 +292,7 @@ header .nav4{
     background-color: #94004f;
     max-width: 100%;
     white-space: nowrap;
+    /* position: fixed; */
 }
 
 header .nav4 .nav4links{
@@ -466,6 +467,303 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .
 header .navsmallscreen{
     display: none;
 }
+
+
+/* main styling starts here */
+/* main styling starts here */
+/* main styling starts here */
+/* main styling starts here */
+/* main styling starts here */
+/* main styling starts here */
+
+
+main .first{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    /* background-color: aqua; */
+    overflow: hidden;
+    min-height: 50vh;
+}
+
+main .first #carousel div div div img{
+
+    border-radius: 0.625rem;
+    height: 60vh;
+
+}
+
+main .first .rowimg{
+    gap: 0.625rem;
+}
+
+main .first .rowimg .img1 img{
+
+    border-radius: 0.625rem;
+    height: 28vh;
+    width: 95%;
+}
+
+main .first .rowimg .img2 img{
+
+    border-radius: 0.625rem;
+    height: 28vh;
+    width: 95%;
+}
+
+main .first .rowimg .row2{
+
+    margin-top: 4vh;
+}
+
+/*section 2  */
+/*section 2  */
+/*section 2  */
+/*section 2  */
+
+main .second{
+
+    display: flex;
+    gap: 1.25rem;
+    padding:0 1.25rem;
+    justify-content: space-between;
+    /* background-color: green; */
+}
+
+main .second .img{
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+main .second .img a img{
+
+    height: 4vh;
+}
+
+
+
+
+
+
+
+/* section 3 */
+/* section 3 */
+/* section 3 */
+/* section 3 */
+/* section 3 */
+/* section 3 */
+
+
+main .third{
+
+    padding:1.25rem;
+}
+
+main .third div .c-header{
+
+    background-color: #94004f ;
+    color: white;
+    
+    background-image: url('https://res.cloudinary.com/staging-konga-com/image/upload/f_auto,q_auto/v1654791685/assets/images/homepage/Bg-Icons.png');
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+main .third div .c-header a{
+
+    text-decoration: none;
+    color: white;
+}
+
+main .third .kard .c-body .c-body1{
+    /* background-color: green; */
+}
+main .third .kard .c-body .c-body1 a{
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px rgb(219, 214, 214);
+    border-radius: 2px;
+    padding: 15px;
+    gap: 15px;
+    min-height: 10vh;
+}
+
+main .third .kard .c-body .c-body1 a .img img{
+
+    height: 16vh;
+}
+
+main .third .kard .c-body .c-body1 a .text{
+
+    /* background-color: green; */
+    min-height: 10vh;
+
+}
+
+main .third .kard .c-body .c-body1 a .text .Djack{
+
+    /* background-color: green; */
+    /* margin-top: 5px; */
+    /* margin-bottom: 10px; */
+
+}
+
+main .third .kard .c-body .c-body1 a .text div:nth-of-type(2){
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* background-color: red; */
+    /* margin-bottom: 7px; */
+}
+
+main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(1){
+
+    font-weight: 700;
+}
+
+main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(2){
+
+    text-decoration: line-through;
+}
+
+main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(3){
+
+    background-color: rgba(255,59,59,.2);
+    color: #ff3b3b;
+    border-radius: 0.5rem;
+    font-size: .625rem;
+    padding: 5px;
+}
+
+main .third .kard .c-body .c-body1 a .text span{
+
+    font-size: 0.8rem;
+    color: green;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsiveness */
 /* responsiveness */
 /* responsiveness */

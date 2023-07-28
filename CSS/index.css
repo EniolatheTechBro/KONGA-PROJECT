@@ -7,6 +7,9 @@
 body{
     /* max-width: 100%; */
     background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png');
+    /* background-repeat: no-repeat ; */
+    background-size: contain;
+
     position: relative;
 }
 
@@ -194,7 +197,6 @@ header .nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
     top: 3.125rem;
     transition: 2s;
     
-    
 }
 
 .helpdropcontents div a{
@@ -266,7 +268,7 @@ header .nav3 .nav3div .nav3links .cart p{
     display: flex;
     align-items: center;
     gap: 0.313rem;
-    margin-top: 0.938rem;
+    margin-top: 1rem;
 }
 
 header .nav3 .nav3div .nav3links .cart .number{
@@ -345,7 +347,7 @@ header .nav4 .nav4links .categ{
 
     position: relative;
     display: inline-block;
-    z-index: 1
+    z-index: 1;
 }
 
 
@@ -356,7 +358,7 @@ header .nav4 .nav4links .categ .Catdropdown{
     background-color: green;
     min-height: 50vh;
     width: 100vw;
-    display:none;
+    /* display:none; */
 
 }
 
@@ -476,13 +478,13 @@ header .navsmallscreen{
 /* main styling starts here */
 /* main styling starts here */
 
-
 main .first{
 
     display: flex;
     justify-content: space-between;
-    gap: 1.25rem;
-    padding: 1.25rem;
+    gap: 1.5%;
+    width: 97%;
+    margin: 1.5% auto;
     /* background-color: aqua; */
     overflow: hidden;
     min-height: 50vh;
@@ -526,27 +528,24 @@ main .first .rowimg .row2{
 main .second{
 
     display: flex;
-    gap: 1.25rem;
-    padding:0 1.25rem;
+    /* gap: 1.5%; */
+    margin: 1.5% auto;
+    width: 97%;
     justify-content: space-between;
     /* background-color: green; */
 }
 
 main .second .img{
     background-color: white;
-    padding: 15px 25px;
-    border-radius: 5px;
+    padding: 0.938rem 1.563rem;
+    border-radius: 0.313rem;
+    
 }
 
 main .second .img a img{
 
     height: 4vh;
 }
-
-
-
-
-
 
 
 /* section 3 */
@@ -559,7 +558,9 @@ main .second .img a img{
 
 main .third{
 
-    padding:1.25rem;
+    width: 97%;
+    margin: 1.5% auto;
+
 }
 
 main .third .kard .c-header{
@@ -571,18 +572,23 @@ main .third .kard .c-header{
 
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 main .third .kard .c-header a{
 
     text-decoration: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
     color: white;
 }
 
-main .third .kard .c-body .c-body1{
-    /* background-color: green; */
+main .third .kard .c-header a:hover{
+    text-decoration: underline;
 }
+
+
 main .third .kard .c-body .c-body1 a{
 
     display: flex;
@@ -590,10 +596,10 @@ main .third .kard .c-body .c-body1 a{
     text-decoration: none;
     color: black;
     background-color: white;
-    box-shadow: 0px 0px 2px 2px rgb(238, 233, 233);
-    border-radius: 2px;
-    padding: 15px;
-    gap: 10px;
+    box-shadow: 0 0 0.125rem 0.125rem rgb(238, 233, 233);
+    border-radius: 0.125rem;
+    padding: 0.9rem;
+    gap: 1.25rem;
     min-height: 10vh;
     transition: 1s;
 }
@@ -606,7 +612,7 @@ main .third .kard .c-body .c-body1 a:hover{
 
 main .third .kard .c-body .c-body1 a .img img{
 
-    height: 16vh;
+    height: 15vh;
 }
 
 main .third .kard .c-body .c-body1 a .text{
@@ -616,19 +622,11 @@ main .third .kard .c-body .c-body1 a .text{
 
 }
 
-main .third .kard .c-body .c-body1 a .text .Djack{
-
-    /* background-color: green; */
-    /* margin-top: 5px; */
-    /* margin-bottom: 10px; */
-
-}
-
 main .third .kard .c-body .c-body1 a .text div:nth-of-type(2){
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     /* background-color: red; */
     /* margin-bottom: 7px; */
 }
@@ -649,7 +647,7 @@ main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(3){
     color: #ff3b3b;
     border-radius: 0.5rem;
     font-size: .625rem;
-    padding: 5px;
+    padding: 0.313rem;
 }
 
 main .third .kard .c-body .c-body1 a .text span{
@@ -661,7 +659,7 @@ main .third .kard .c-body .c-body1 a .text span{
 
 main .third .kard .c-body .row2{
 
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* section four starts here */
@@ -672,7 +670,9 @@ main .third .kard .c-body .row2{
 
 main .fourth{
 
-    padding:0 1.25rem;
+    padding:0 1.5%;
+    margin: 1.5% auto;
+    width: 100%;
 }
 
 main .fourth div .c-header{
@@ -683,37 +683,345 @@ main .fourth div .c-header{
 
 main .fourth div .c-body div a .img img{
 
-    height: 20vh;
+    height: 30vh;
+    /* border: thick solid red; */
+    /* margin-left:2.5%; */
+}
+
+main .fourth div .c-body{
+    overflow-x: scroll;
+    /* white-space: nowrap; */
+
 }
 
 main .fourth div .c-body .sponsored{
 
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: black;
-    box-shadow: 0px 0px 2px 2px rgb(238, 233, 233);
+    padding: 0.938rem;
+    box-shadow: 0px 0px 0.125rem 0.125rem rgb(238, 233, 233);
     
+    transition: 1s;
+    
+}
+
+main .fourth div .c-body .sponsored:hover{
+
+    box-shadow: 0px 0px 0.188rem 0.25rem rgb(214, 214, 214);
+
 }
 
 
 main .fourth div .c-body .sponsored a{
 
     text-decoration: none;
+    color: black;
 }
 
 main .fourth div .c-body .sponsored a .text .p{
 
-    
+    font-weight: 500;
+    font-size: 1em;
+    margin:0.313rem 0 0.938rem ;
+    text-align: left;
+}
 
+main .fourth div .c-body .sponsored a .text .price{
+
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 
 main .fourth div .c-body{
 
     display: flex;
-    gap: 20px;
-    
+    gap: 1.25rem;
 }
+
+main .fourth div .c-body .sponsored a .text .prices{
+
+    display: flex;
+    align-items: center;
+    gap: 0.625rem; 
+}
+
+main .fourth div .c-body .sponsored a .text .prices .priceslash{
+
+    text-decoration: line-through;
+    color: #454647;
+}
+
+main .fourth div .c-body .sponsored a .text .prices .disco{
+
+    background-color: rgba(255,59,59,.2);
+    color: #ff3b3b;
+    border-radius: 0.5rem;
+    font-size: .625rem;
+    padding: 0.313rem;
+}
+
+main .fourth div .c-body .sponsored a .text span{
+    font-size: 0.8rem;
+    color: green;
+    font-weight: 500;
+}
+
+/* section five */
+/* section five */
+/* section five */
+/* section five */
+/* section five */
+
+
+main .fifth .five{
+
+    background-color: white;
+    display: flex;
+    padding: 1.5%;
+    width: 97%;
+    margin:0 auto;
+    justify-content: space-between;
+    border-radius: 0.313rem;
+
+}
+
+main .fifth a img{
+
+width: 25vh;
+}
+
+
+/* section six */
+/* section six */
+/* section six */
+/* section six */
+
+
+
+main .six{
+
+    width: 97%;
+    margin: 1.5% auto;
+
+}
+
+main .six .kard .c-header{
+
+    background-color: white ;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 3.125rem;
+}
+
+main .six .kard .c-header h5{
+
+    font-weight: 700;
+}
+
+
+main .six .kard .c-header a{
+
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #8b054d;
+}
+
+main .six .kard .c-header a:hover{
+
+    text-decoration:underline;
+}
+
+
+
+main .six .kard .c-body .c-body1 a{
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 0.125rem 0.125rem rgb(238, 233, 233);
+    border-radius: 0.125rem;
+    padding: 0.9rem;
+    gap: 1.25rem;
+    min-height: 10vh;
+    transition: 1s;
+}
+
+main .six .kard .c-body .c-body1 a:hover{
+
+    box-shadow: 0px 0px 3px 3px rgb(167, 163, 163);
+
+}
+
+main .six .kard .c-body .c-body1 a .img img{
+
+    height: 15vh;
+}
+
+main .six .kard .c-body .c-body1 a .text{
+
+    /* background-color: green; */
+    min-height: 10vh;
+
+}
+
+main .six .kard .c-body .c-body1 a .text div:nth-of-type(2){
+
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    /* background-color: red; */
+    /* margin-bottom: 7px; */
+}
+
+main .six .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(1){
+
+    font-weight: 700;
+}
+
+main .six .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(2){
+
+    text-decoration: line-through;
+}
+
+main .six .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(3){
+
+    background-color: rgba(255,59,59,.2);
+    color: #ff3b3b;
+    border-radius: 0.5rem;
+    font-size: .625rem;
+    padding: 0.313rem;
+}
+
+main .six .kard .c-body .c-body1 a .text span{
+
+    font-size: 0.8rem;
+    color: green;
+    font-weight: 500;
+}
+
+main .six .kard .c-body .row2{
+
+    margin-top: 1.25rem;
+}
+
+
+
+
+
+
+
+
+main .seven{
+
+    background-color: white;
+    width: 97%;
+    margin:1.5% auto;
+    min-height: 10vh;
+    padding:1%;
+    border-radius: 0.313rem;
+}
+
+main .seven .box a img{
+    width:100% ;
+    border-radius: 0.313rem;
+
+}
+
+main .eight .box{
+
+    background-color: white;
+    width: 97%;
+    margin:1.5% auto;
+    min-height: 10vh;
+    padding:1%;
+    border-radius: 0.313rem;
+    display: flex;
+    gap: 1%;
+
+}
+
+main .eight .box a img{
+    width: 100%;
+    border-radius: 0.313rem;
+}
+
+
+main .nine{
+
+    width: 97%;
+    margin:1.5% auto;
+    min-height: 10vh;
+    display: flex;
+    gap: 1.5%;
+
+}
+
+
+
+main .nine div{
+
+    width: 24%;
+    background-color: white;
+    border-radius: 0.313rem;
+}
+
+main .nine div a{
+    text-decoration: none;
+    color: #5a5f66;
+}
+
+
+main .nine div a img{
+    width: 100%;
+    border-radius: 0.313rem 0.313rem 0 0;
+    margin-bottom: 50px;
+}
+
+main .nine div a .text{
+
+    /* background-color: red; */
+    width: 100%;
+    padding: 1.25rem;
+}
+main .nine div a .text h5{
+    font-weight: 700;
+}
+main .nine div a .text h5,main .nine div a .text p:nth-of-type(1){
+    margin-bottom: 2.188rem;
+}
+
+main .nine div a .text p:nth-of-type(2){
+    color: #8b054d;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+main .nine div a .text2{
+    width: 100%;
+    padding: 1.25rem;
+}
+main .nine div a .text2 h5{
+    font-weight: 700;
+}
+
+main .nine div a .text2 p:nth-of-type(2){
+    color: #8b054d;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
 
 
 
@@ -834,7 +1142,7 @@ main .fourth div .c-body{
     }
 
     header .nav3 .nav3div .logo a img{
-        height: 8vh;
+        height: 6vh;
     }
     
 

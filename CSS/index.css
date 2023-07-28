@@ -562,7 +562,7 @@ main .third{
     padding:1.25rem;
 }
 
-main .third div .c-header{
+main .third .kard .c-header{
 
     background-color: #94004f ;
     color: white;
@@ -574,7 +574,7 @@ main .third div .c-header{
     gap: 50px;
 }
 
-main .third div .c-header a{
+main .third .kard .c-header a{
 
     text-decoration: none;
     color: white;
@@ -590,11 +590,18 @@ main .third .kard .c-body .c-body1 a{
     text-decoration: none;
     color: black;
     background-color: white;
-    box-shadow: 0px 0px 3px 3px rgb(219, 214, 214);
+    box-shadow: 0px 0px 2px 2px rgb(238, 233, 233);
     border-radius: 2px;
     padding: 15px;
-    gap: 15px;
+    gap: 10px;
     min-height: 10vh;
+    transition: 1s;
+}
+
+main .third .kard .c-body .c-body1 a:hover{
+
+    box-shadow: 0px 0px 3px 3px rgb(167, 163, 163);
+
 }
 
 main .third .kard .c-body .c-body1 a .img img{
@@ -652,13 +659,61 @@ main .third .kard .c-body .c-body1 a .text span{
     font-weight: 500;
 }
 
+main .third .kard .c-body .row2{
+
+    margin-top: 20px;
+}
+
+/* section four starts here */
+/* section four starts here */
+/* section four starts here */
+/* section four starts here */
 
 
+main .fourth{
+
+    padding:0 1.25rem;
+}
+
+main .fourth div .c-header{
+    background-color: white!important;
+    color: black;
+    font-weight: 700;
+}
+
+main .fourth div .c-body div a .img img{
+
+    height: 20vh;
+}
+
+main .fourth div .c-body .sponsored{
+
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 0px 2px 2px rgb(238, 233, 233);
+    
+}
 
 
+main .fourth div .c-body .sponsored a{
+
+    text-decoration: none;
+}
+
+main .fourth div .c-body .sponsored a .text .p{
+
+    
+
+}
 
 
+main .fourth div .c-body{
 
+    display: flex;
+    gap: 20px;
+    
+}
 
 
 
@@ -819,6 +874,8 @@ main .third .kard .c-body .c-body1 a .text span{
     header .nav3 .nav3div .logo{
         width: 15%;
     }
+
+
 
 
     header .nav3 .nav3div .nav3links{

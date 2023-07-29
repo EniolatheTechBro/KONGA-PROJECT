@@ -9,6 +9,7 @@ body{
     background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png');
     /* background-repeat: no-repeat ; */
     background-size: contain;
+    margin: 0;
 
     position: relative;
 }
@@ -61,6 +62,9 @@ header .nav3{
     padding: 0 1.875rem;
     /* position: fixed; */
     z-index: 1;
+    width: 100%;
+    position: sticky ;
+    top: 0;
 
 }
 
@@ -688,12 +692,6 @@ main .fourth div .c-body div a .img img{
     /* margin-left:2.5%; */
 }
 
-main .fourth div .c-body{
-    overflow-x: scroll;
-    /* white-space: nowrap; */
-
-}
-
 main .fourth div .c-body .sponsored{
 
     background-color: rgb(255, 255, 255);
@@ -737,6 +735,7 @@ main .fourth div .c-body{
 
     display: flex;
     gap: 1.25rem;
+    overflow-x: scroll;
 }
 
 main .fourth div .c-body .sponsored a .text .prices{
@@ -951,6 +950,13 @@ main .eight .box a img{
 }
 
 
+/* section nine */
+/* section nine */
+/* section nine */
+/* section nine */
+/* section nine */
+
+
 main .nine{
 
     width: 97%;
@@ -1015,6 +1021,84 @@ main .nine div a .text2 p:nth-of-type(2){
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+main .ten{
+
+    width: 97%;
+    margin:1.5% auto;
+    padding:0 1%;
+    /* background-color: white; */
+    
+
+}
+main .ten div div{
+    height: 25vh;
+    background-color: white;
+    border: 0.5px solid rgba(110, 110, 112, 0.13);
+    /* border-right: none; */
+    border-bottom: none;
+    transition: 1s;
+}
+
+main .ten div div:hover{
+
+    transform: scaleX(1.02);
+}
+
+main .ten div #one{
+
+    border-left: none;
+    border-top: none;
+    border-top-left-radius: 0.313rem;
+}
+
+main .ten div #two,main .ten div #three,main .ten div #four,main .ten div #five,main .ten div #six{
+
+    border-top: none;
+
+}
+
+main .ten div #seven{
+
+    border-left: none;
+    border-bottom-left-radius:0.313rem;
+}
+
+main .ten div #six{
+
+    border-top-right-radius: 0.313rem;
+}
+
+main .ten div #twelve{
+
+    border-bottom-right-radius: 0.313rem;
+}
+
+
+
+
+main .ten div div a img{
+
+    height:10vh;
+    margin:45px 0;
+    margin-left:  10px;
+}
+
+main .eleven{
+
+    width: 97%;
+    margin:1.5% auto;
+
+}
+
+main .eleven div{
+
+    background-color: white;
+    padding:1%;
+    border-radius: 0.313rem;
+}
+
+
 
 
 

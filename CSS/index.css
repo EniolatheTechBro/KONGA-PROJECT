@@ -1979,6 +1979,11 @@ main .eleven div{
         margin:45px 0;
         /* margin-left:10px; */
     }
+
+    main .ten{
+
+        padding:0 10px;
+    }
 }
 
 
@@ -2028,6 +2033,13 @@ main .eleven div{
     
     }
 
+    main .ten div div a img{
+
+        height:2vh;
+        margin:35px 0;
+        margin-right:25px;
+    }
+
 }
 
 @media (max-width:320px){
@@ -2055,7 +2067,7 @@ main .eleven div{
 
     main .first .rowimg .img1, main .first .rowimg .img2{
 
-        background-color: green;
+        /* background-color: green; */
         height: 30vh;
     }
 

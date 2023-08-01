@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: thin solid red; */
+}
+
+
+main{
+    max-width: 100%;
+    background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png');
+    /* background-repeat: no-repeat ; */
+    background-size: contain;
+    margin: 0;
+
+    position: relative;
+}
+
+header .nav1ads a img{
+    text-decoration: none;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+header .nav2{
+
+    background-color: #F6F6F6;
+    min-height: 5vh;
+    margin-top: -0.125rem;
+    max-width: 100%;
+    padding: 0 1.5%;
+}
+
+header .nav2 .navimg{
+    
+    padding: 0.625rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+header .nav2 .navimg a{
+    text-decoration: none;
+}
+
+header .nav2 .navimg a img{
+   
+    height: 3vh;
+    padding-right: 3.125rem;  
+}
+
+
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+/* navigation bar three starts here */
+
+.nav3{
+    background-color: #ed017f;
+    padding: 0 1.875rem;
+    /* position: fixed; */
+    z-index: 3;
+    width: 100%;
+    position: sticky ;
+    top: 0;
+}
+
+.nav3 .nav3div .logo a img{
+    height: 5vh;
+}
+
+.nav3 .nav3div{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 3.75rem;
+    max-width: 100%;
+}
+
+.nav3 .nav3div .logo{
+    width: 15%;
+}
+
+.nav3 .nav3div .nav3links{
+   width: 85%;
+   display: flex;
+   align-items: center;
+   height: 3.75rem;
+}
+
+.nav3 .nav3div .nav3links a{
+
+    text-decoration: none;
+}
+
+.nav3 .nav3div .nav3links #searchbutton{
+
+    min-width: 48%;
+    font-size: 0.813rem!important;
+    height: 2.188rem;
+
+}
+
+.nav3 .nav3div .nav3links #searchbutton input{
+
+    font-size: 0.813rem!important;
+   
+
+}
+
+.nav3 .nav3div .nav3links #searchbutton .searchbut{
+    background-color: #FBA100!important;
+}
+
+.nav3 .nav3div .nav3links #searchbutton button .fa-solid{
+
+    font-size: 0.75rem;
+
+}
+.nav3 .nav3div .nav3links .storelink{
+    /* background-color: red; */
+    padding: .9375rem;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+    /* padding-left: 35px; */
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFFFFF;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.nav3 .nav3div .nav3links .storelink:hover{
+
+    background-color: #FFFFFF;
+    color: #ed017f;
+}
+
+.nav3 .nav3div .nav3links .sellonkonga{
+    /* background-color: orange; */
+    padding: 1rem;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFFFFF;
+    height: 100%;
+    transition: 0.5s;
+    white-space: nowrap;
+    display: block;
+}
+
+.nav3 .nav3div .nav3links .sellonkonga:hover{
+
+    background-color: #FFFFFF;
+    color: #ed017f;
+}
+
+.nav3 .nav3div .nav3links  .helplink{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;   
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFFFFF;
+    gap: 0.5rem;
+    height: 3.75rem;
+    transition: 0.5s;
+    padding: 1.875rem 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
+
+    background-color: #FFFFFF;
+    color: #ed017f;
+}
+
+/* dropdown for help link */
+
+.helpdropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    
+}
+
+.helpdropcontents{
+    position: absolute;
+    min-height: 10vh;
+    min-width:200% ;
+    background-color: #FFFFFF;
+    /* background-color: red; */
+    display: none;   
+    /* background-color: green; */
+    top: 3.125rem;
+    transition: 2s;
+    
+}
+
+.helpdropcontents div a{
+    color: black;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    padding: 0.625rem 3.125rem 0.625rem 1.25rem;
+    /* background-color: blue; */
+    
+}
+
+.helpdropdown:hover .helpdropcontents{
+    display: block;
+    /* transform: translateY(10px); */
+}
+
+.helpdropcontents div a:hover{
+    color: red;
+}
+
+.helpdropcontents div:hover{
+    color: red;
+    background-color: rgb(238, 235, 235);
+}
+
+
+
+.nav3 .nav3div .nav3links .login{
+    /* background-color: red; */
+    padding: .9375rem; 
+    font-size: 1rem;
+    line-height: 1;
+    color: #FFFFFF;
+    height: 3.75rem;
+    transition: 0.5s;
+    white-space: nowrap;
+    padding-right: 0.938rem;
+    padding-left: 0.938rem; 
+
+}
+
+.nav3 .nav3div .nav3links .login:hover{
+
+    background-color: #FFFFFF;
+    color: #ed017f;
+}
+
+
+.nav3 .nav3div .nav3links .cart{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #33b27b;
+    border-radius: 0.188rem;
+    padding: 1.563rem 1.563rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    height: 2.188rem;
+    transition: 0.5s;
+}
+
+.nav3 .nav3div .nav3links .cart:hover{
+
+    background-color: #1f8a5b;
+}
+
+.nav3 .nav3div .nav3links .cart p{
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+    margin-top: 1rem;
+}
+
+.nav3 .nav3div .nav3links .cart .number{
+   background-color: rgb(255, 255, 255);
+   padding: 0.188rem 0.375rem;
+   margin-left: 0.5rem;
+   border-radius: 0.188rem;
+   color: black;
+   
+}
+
+
+
+
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+/* nav4 styling starts here*/
+
+.nav4{
+
+    background-color: #94004f;
+    white-space: nowrap;
+    overflow-x: hidden;
+    z-index: 1;
+    position: sticky ;
+    top: 60px;
+}
+
+.nav4 .nav4links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav4 .nav4links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav4 .nav4links .categories{
+    padding: 0.75rem 1.5rem;
+    height: 100%;
+}
+
+.nav4 .nav4links .computer{
+    padding: 0.75rem 0.938rem;
+}
+
+.nav4 .nav4links .phones{
+    padding: 0.75rem 0.938rem;
+}
+
+.nav4 .nav4links .Electronics{
+    padding: 0.75rem 0.938rem;
+}
+
+.nav4 .nav4links .Fashion{
+    padding: 0.75rem 0.938rem;
+}
+.nav4 .nav4links .HomeKitchen{
+    padding: 0.75rem 0.938rem;
+}
+.nav4 .nav4links .BabyToys{
+    padding: 0.75rem 0.938rem;
+}
+.nav4 .nav4links .others{
+    padding: 0.75rem 0.938rem;
+}
+
+
+/* categories dropdown styling*/
+
+
+
+.nav4 .nav4links .categ{
+
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+    
+}
+
+
+.nav4 .nav4links .categ .Catdropdown{
+
+    top: 2.25rem;
+    position: absolute;
+    /* background-color: green; */
+    min-height: 50vh;
+    width: 100vw;
+    display:none;
+
+}
+
+.nav4 .nav4links .categories{
+    transition: 0.5s;
+}
+
+.nav4 .nav4links .categories:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.nav4 .nav4links .categ:hover .nav4 .nav4links .categ .Catdropdown{
+    display: block;
+    z-index: 3;
+}
+
+header .nav4 .nav4links .categ .categoriesdropdown{ 
+    display: flex;
+    width:100%;
+}
+
+
+
+.nav4 .nav4links .categ .categoriesdropdown a{
+
+        color: black;
+}
+
+
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
+
+    background-color: rgb(243, 243, 239);
+    width: 25%;
+    padding-top: 1.25rem;
+    margin-left: -1.875rem;
+}
+
+
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
+    
+    list-style-type: none;
+    width: 100%; 
+    font-size: 1em;
+    
+}
+
+
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a{
+
+    
+    padding: 0.688 1.875rem;
+   display: block;
+    text-align: left;
+}
+
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a:hover{
+
+    background-color: white;
+
+}
+
+
+/* 2nd div within the dropdowns */
+
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd{
+
+    background-color: #ffffff;
+    width: 75%;
+    padding: 1.875rem 1.875rem 301.875rem 0rem;
+}
+
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .comprow{
+
+    /* background-color: yellow; */
+    font-size: 0.813;
+
+}
+
+
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
+
+    padding: 0.313rem 0;
+    list-style-type: none;
+    /* background-color: red; */
+    /* width: 100%; */
+} 
+
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
+
+    display: flex;
+    gap: 1.875rem;
+}
+
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .comprow{
+
+    display: grid;
+    grid-template-areas:'. . . .'
+                        '. . . .';
+}

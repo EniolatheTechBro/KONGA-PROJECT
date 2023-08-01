@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: thin solid red; */
 }
 
-body{
-    /* max-width: 100%; */
+header{
+
+    max-width: 100%;
+}
+
+main{
+    max-width: 100%;
     background-image: url('https://www-konga-com-res.cloudinary.com/image/upload/v1689344798/landingPages/KongaAnniv23/Frame_4.png');
     /* background-repeat: no-repeat ; */
     background-size: contain;
@@ -26,8 +32,8 @@ header .nav2{
     background-color: #F6F6F6;
     min-height: 5vh;
     margin-top: -0.125rem;
-    width: 100%;
-    padding: 0 1.25rem;
+    max-width: 100%;
+    padding: 0 1.5%;
 }
 
 header .nav2 .navimg{
@@ -57,22 +63,21 @@ header .nav2 .navimg a img{
 /* navigation bar three starts here */
 /* navigation bar three starts here */
 
-header .nav3{
+.nav3{
     background-color: #ed017f;
     padding: 0 1.875rem;
     /* position: fixed; */
-    z-index: 1;
+    z-index: 3;
     width: 100%;
     position: sticky ;
     top: 0;
-
 }
 
-header .nav3 .nav3div .logo a img{
+.nav3 .nav3div .logo a img{
     height: 5vh;
 }
 
-header .nav3 .nav3div{
+.nav3 .nav3div{
     
     display: flex;
     align-items: center;
@@ -81,23 +86,23 @@ header .nav3 .nav3div{
     max-width: 100%;
 }
 
-header .nav3 .nav3div .logo{
+.nav3 .nav3div .logo{
     width: 15%;
 }
 
-header .nav3 .nav3div .nav3links{
+.nav3 .nav3div .nav3links{
    width: 85%;
    display: flex;
    align-items: center;
    height: 3.75rem;
 }
 
-header .nav3 .nav3div .nav3links a{
+.nav3 .nav3div .nav3links a{
 
     text-decoration: none;
 }
 
-header .nav3 .nav3div .nav3links #searchbutton{
+.nav3 .nav3div .nav3links #searchbutton{
 
     min-width: 48%;
     font-size: 0.813rem!important;
@@ -105,23 +110,23 @@ header .nav3 .nav3div .nav3links #searchbutton{
 
 }
 
-header .nav3 .nav3div .nav3links #searchbutton input{
+.nav3 .nav3div .nav3links #searchbutton input{
 
     font-size: 0.813rem!important;
    
 
 }
 
-header .nav3 .nav3div .nav3links #searchbutton .searchbut{
+.nav3 .nav3div .nav3links #searchbutton .searchbut{
     background-color: #FBA100!important;
 }
 
-header .nav3 .nav3div .nav3links #searchbutton button .fa-solid{
+.nav3 .nav3div .nav3links #searchbutton button .fa-solid{
 
     font-size: 0.75rem;
 
 }
-header .nav3 .nav3div .nav3links .storelink{
+.nav3 .nav3div .nav3links .storelink{
     /* background-color: red; */
     padding: .9375rem;
     padding-right: 0.938rem;
@@ -134,13 +139,13 @@ header .nav3 .nav3div .nav3links .storelink{
     transition: 0.5s;
 }
 
-header .nav3 .nav3div .nav3links .storelink:hover{
+.nav3 .nav3div .nav3links .storelink:hover{
 
     background-color: #FFFFFF;
     color: #ed017f;
 }
 
-header .nav3 .nav3div .nav3links .sellonkonga{
+.nav3 .nav3div .nav3links .sellonkonga{
     /* background-color: orange; */
     padding: 1rem;
     padding-right: 0.938rem;
@@ -154,13 +159,13 @@ header .nav3 .nav3div .nav3links .sellonkonga{
     display: block;
 }
 
-header .nav3 .nav3div .nav3links .sellonkonga:hover{
+.nav3 .nav3div .nav3links .sellonkonga:hover{
 
     background-color: #FFFFFF;
     color: #ed017f;
 }
 
-header .nav3 .nav3div .nav3links  .helplink{
+.nav3 .nav3div .nav3links  .helplink{
     /* background-color: green; */
     display: flex;
     align-items: center;   
@@ -175,7 +180,7 @@ header .nav3 .nav3div .nav3links  .helplink{
     padding-left: 1rem;
 }
 
-header .nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
+.nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
 
     background-color: #FFFFFF;
     color: #ed017f;
@@ -228,7 +233,7 @@ header .nav3 .nav3div .nav3links .helpdropdown .helplink:hover{
 
 
 
-header .nav3 .nav3div .nav3links .login{
+.nav3 .nav3div .nav3links .login{
     /* background-color: red; */
     padding: .9375rem; 
     font-size: 1rem;
@@ -242,14 +247,14 @@ header .nav3 .nav3div .nav3links .login{
 
 }
 
-header .nav3 .nav3div .nav3links .login:hover{
+.nav3 .nav3div .nav3links .login:hover{
 
     background-color: #FFFFFF;
     color: #ed017f;
 }
 
 
-header .nav3 .nav3div .nav3links .cart{
+.nav3 .nav3div .nav3links .cart{
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -263,19 +268,19 @@ header .nav3 .nav3div .nav3links .cart{
     transition: 0.5s;
 }
 
-header .nav3 .nav3div .nav3links .cart:hover{
+.nav3 .nav3div .nav3links .cart:hover{
 
     background-color: #1f8a5b;
 }
 
-header .nav3 .nav3div .nav3links .cart p{
+.nav3 .nav3div .nav3links .cart p{
     display: flex;
     align-items: center;
     gap: 0.313rem;
     margin-top: 1rem;
 }
 
-header .nav3 .nav3div .nav3links .cart .number{
+.nav3 .nav3div .nav3links .cart .number{
    background-color: rgb(255, 255, 255);
    padding: 0.188rem 0.375rem;
    margin-left: 0.5rem;
@@ -293,52 +298,54 @@ header .nav3 .nav3div .nav3links .cart .number{
 /* nav4 styling starts here*/
 /* nav4 styling starts here*/
 
-header .nav4{
+.nav4{
 
     background-color: #94004f;
-    max-width: 100%;
     white-space: nowrap;
-    /* position: fixed; */
+    overflow-x: hidden;
+    z-index: 1;
+    position: sticky ;
+    top: 60px;
 }
 
-header .nav4 .nav4links{
+.nav4 .nav4links{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .nav4 .nav4links a{
+.nav4 .nav4links a{
     text-decoration: none;
     color: white;
 }
 
-header .nav4 .nav4links .categories{
+.nav4 .nav4links .categories{
     padding: 0.75rem 1.5rem;
     height: 100%;
 }
 
-header .nav4 .nav4links .computer{
+.nav4 .nav4links .computer{
     padding: 0.75rem 0.938rem;
 }
 
-header .nav4 .nav4links .phones{
+.nav4 .nav4links .phones{
     padding: 0.75rem 0.938rem;
 }
 
-header .nav4 .nav4links .Electronics{
+.nav4 .nav4links .Electronics{
     padding: 0.75rem 0.938rem;
 }
 
-header .nav4 .nav4links .Fashion{
+.nav4 .nav4links .Fashion{
     padding: 0.75rem 0.938rem;
 }
-header .nav4 .nav4links .HomeKitchen{
+.nav4 .nav4links .HomeKitchen{
     padding: 0.75rem 0.938rem;
 }
-header .nav4 .nav4links .BabyToys{
+.nav4 .nav4links .BabyToys{
     padding: 0.75rem 0.938rem;
 }
-header .nav4 .nav4links .others{
+.nav4 .nav4links .others{
     padding: 0.75rem 0.938rem;
 }
 
@@ -347,36 +354,38 @@ header .nav4 .nav4links .others{
 
 
 
-header .nav4 .nav4links .categ{
+.nav4 .nav4links .categ{
 
     position: relative;
     display: inline-block;
-    z-index: 1;
+    z-index: 3;
+    
 }
 
 
-header .nav4 .nav4links .categ .Catdropdown{
+.nav4 .nav4links .categ .Catdropdown{
 
     top: 2.25rem;
     position: absolute;
-    background-color: green;
+    /* background-color: green; */
     min-height: 50vh;
     width: 100vw;
-    /* display:none; */
+    display:none;
 
 }
 
-header .nav4 .nav4links .categories{
+.nav4 .nav4links .categories{
     transition: 0.5s;
 }
 
-header .nav4 .nav4links .categories:hover{
+.nav4 .nav4links .categories:hover{
     background-color: #ffffff;
     color: black;
 }
 
-header .nav4 .nav4links .categ:hover .nav4 .nav4links .categ .Catdropdown{
+.nav4 .nav4links .categ:hover .nav4 .nav4links .categ .Catdropdown{
     display: block;
+    z-index: 3;
 }
 
 header .nav4 .nav4links .categ .categoriesdropdown{ 
@@ -386,13 +395,13 @@ header .nav4 .nav4links .categ .categoriesdropdown{
 
 
 
-header .nav4 .nav4links .categ .categoriesdropdown a{
+.nav4 .nav4links .categ .categoriesdropdown a{
 
         color: black;
 }
 
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
 
     background-color: rgb(243, 243, 239);
     width: 25%;
@@ -401,7 +410,7 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar{
 }
 
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
     
     list-style-type: none;
     width: 100%; 
@@ -410,7 +419,7 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul li{
 }
 
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a{
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a{
 
     
     padding: 0.688 1.875rem;
@@ -418,38 +427,31 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content 
     text-align: left;
 }
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a:hover{
+.nav4 .nav4links .categ .categoriesdropdown .categ1stbar ul .cat-content a:hover{
 
     background-color: white;
 
 }
 
 
-
-
-
-
-
 /* 2nd div within the dropdowns */
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd{
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd{
 
     background-color: #ffffff;
     width: 75%;
     padding: 1.875rem 1.875rem 301.875rem 0rem;
 }
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .comprow{
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .comprow{
 
     /* background-color: yellow; */
     font-size: 0.813;
-    
-    
+
 }
 
 
-
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents ul li{
 
     padding: 0.313rem 0;
     list-style-type: none;
@@ -457,20 +459,20 @@ header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents u
     /* width: 100%; */
 } 
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents{
 
     display: flex;
     gap: 1.875rem;
 }
 
-header .nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .comprow{
+.nav4 .nav4links .categ .categoriesdropdown .categ2nd .computercontents .comprow{
 
     display: grid;
     grid-template-areas:'. . . .'
                         '. . . .';
 }
 
-header .navsmallscreen{
+.navsmallscreen, .smallnavlink{
     display: none;
 }
 
@@ -481,6 +483,9 @@ header .navsmallscreen{
 /* main styling starts here */
 /* main styling starts here */
 /* main styling starts here */
+main{
+    padding-top: 1%;
+}
 
 main .first{
 
@@ -498,7 +503,6 @@ main .first #carousel div div div img{
 
     border-radius: 0.625rem;
     height: 60vh;
-
 }
 
 main .first .rowimg{
@@ -685,6 +689,13 @@ main .fourth div .c-header{
     font-weight: 700;
 }
 
+main .fourth div .c-body{
+
+    display: flex;
+    gap: 1.25rem;
+    overflow-x: scroll;
+}
+
 main .fourth div .c-body div a .img img{
 
     height: 30vh;
@@ -730,13 +741,6 @@ main .fourth div .c-body .sponsored a .text .price{
     font-size: 1.5em;
 }
 
-
-main .fourth div .c-body{
-
-    display: flex;
-    gap: 1.25rem;
-    overflow-x: scroll;
-}
 
 main .fourth div .c-body .sponsored a .text .prices{
 
@@ -909,11 +913,10 @@ main .six .kard .c-body .row2{
 }
 
 
-
-
-
-
-
+/* section 7 */
+/* section 7 */
+/* section 7 */
+/* section 7 */
 
 main .seven{
 
@@ -967,11 +970,7 @@ main .nine{
 
 }
 
-
-
 main .nine div{
-
-    width: 24%;
     background-color: white;
     border-radius: 0.313rem;
 }
@@ -1021,6 +1020,14 @@ main .nine div a .text2 p:nth-of-type(2){
     font-size: 0.9rem;
     font-weight: 600;
 }
+
+
+/* section 10 */
+/* section 10 */
+/* section 10 */
+/* section 10 */
+/* section 10 */
+
 
 main .ten{
 
@@ -1075,14 +1082,18 @@ main .ten div #twelve{
 }
 
 
-
-
 main .ten div div a img{
 
     height:10vh;
     margin:45px 0;
     margin-left:  10px;
 }
+
+/* section 11 */
+/* section 11 */
+/* section 11 */
+/* section 11 */
+/* section 11 */
 
 main .eleven{
 
@@ -1221,15 +1232,203 @@ main .eleven div{
 
     header{
        
-        max-width: 100%;
+        width: 100%;
         overflow:hidden;
     }
 
-    header .nav3 .nav3div .logo a img{
+    .nav3 .nav3div .logo a img{
         height: 6vh;
     }
     
 
+}
+
+
+@media(max-width:1165px){
+
+    header{
+
+        max-width: 100%;
+        overflow-x:hidden;
+    }
+
+    .nav3{
+
+        max-width: 100%;
+    }
+
+    .nav3 .nav3links{
+
+        width: 80%;
+        margin-right: 5%;
+    }
+
+
+    main .six .kard .c-body .c-body1 a{
+        padding: 0.6rem;
+        gap: 1.25rem;
+    
+    }
+
+    main .six .kard .c-body .c-body1 a .img img{
+
+        height: 8vh;
+    }
+
+
+
+}
+
+
+
+@media(max-width:1097px){
+
+    header{
+
+        max-width: 100%;
+    }
+
+    header .nav3{
+
+        max-width: 100%;
+    }
+
+    .nav3 .nav3links{
+
+        width: 80%;
+        /* margin-right: 10%; */
+    }
+
+    .nav3 .nav3div .nav3links  .storelink{
+        
+        font-size: 0.9rem;
+        
+    }
+    .nav3 .nav3div .nav3links  .sellonkonga{
+        
+        font-size: 0.9rem;
+        
+    }
+    .nav3 .nav3div .nav3links  .helplink{
+        
+        font-size: 0.9rem;
+        
+    }
+    .nav3 .nav3div .nav3links  .login{
+        
+        font-size: 0.9rem;
+        
+    }
+
+    .nav3 .nav3div .nav3links .cart{
+        gap: 0.2rem;
+        padding: 1.5rem .6rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        height: 1.5rem;
+        line-height: 1rem;
+    }
+
+    .nav3 .nav3div .nav3links .cart p{
+        gap: 0.313rem;
+        margin-top: 0.938rem;
+    }
+
+    .nav3 .nav3div .nav3links .cart .number{
+    padding: 0.1rem 0.3rem;
+    margin-left: 0.5rem;
+    
+    }
+    .nav4{
+
+        overflow-x: scroll;
+    }
+
+    /* main styling */
+    /* main styling */
+    /* main styling */
+
+
+    main .third .kard .c-header a{
+
+        text-decoration: none;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: white;
+    }
+    
+    main .third .kard .c-body .c-body1 a .img img{
+    
+        height: 10vh;
+    }
+    
+    
+    main .third .kard .c-body .c-body1 a .text div:nth-of-type(2){
+    
+        display: inline-block;
+    }
+    
+    main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(1){
+    
+        font-weight: 700;
+        font-size: 1.3em!important;
+    }
+    
+    main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(3){
+    
+        font-size: .45rem;
+        width: 70%;
+        text-align: center;
+    }
+    
+    main .third .kard .c-body .c-body1 a .text span{
+    
+        font-size: 0.65rem;
+        color: green;
+        font-weight: 500;
+    }
+
+    
+    main .six .kard .c-header a{
+
+        text-decoration: none;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 0.8rem;
+        color: white;
+    }
+    
+    main .six .kard .c-body .c-body1 a .img img{
+    
+        height: 10vh;
+    }
+    
+    
+    main .six  .kard .c-body .c-body1 a .text div:nth-of-type(2){
+    
+        display: inline-block;
+    }
+    
+    main .third .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(1){
+    
+        font-weight: 700;
+        font-size: 1.3em!important;
+    }
+    
+    main .six .kard .c-body .c-body1 a .text div:nth-of-type(2) div:nth-child(3){
+    
+        font-size: .45rem;
+        width: 70%;
+        text-align: center;
+    }
+    
+    main .six .kard .c-body .c-body1 a .text span{
+    
+        font-size: 0.65rem;
+        color: green;
+        font-weight: 500;
+    }
 }
 
 
@@ -1241,66 +1440,48 @@ main .eleven div{
         /* overflow:hidden; */
     }
 
-    header .nav2{
-
-        background-color: #F6F6F6;
-        height: auto;
-        /* background-color: red; */
-        
-        /* padding-top: 10px; */
-    }
-    /* header .nav3{
-        background-color: green;
-        
-    } */
-
-    header .nav3 .nav3div .logo a img{
+    .nav3 .nav3div .logo a img{
         height: 8vh;
     }
     
-    header .nav3 .nav3div{
+    .nav3 .nav3div{
         gap: 0.5rem;
         
     }
     
-    header .nav3 .nav3div .logo{
+    .nav3 .nav3div .logo{
         width: 15%;
     }
 
-
-
-
-    header .nav3 .nav3div .nav3links{
+    .nav3 .nav3div .nav3links{
 
         max-width: 85%;
     }
     
 
 
-    header .nav3 .nav3div .nav3links  .storelink{
+    .nav3 .nav3div .nav3links  .storelink{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .sellonkonga{
+    .nav3 .nav3div .nav3links  .sellonkonga{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .helplink{
+    .nav3 .nav3div .nav3links  .helplink{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .login{
+    .nav3 .nav3div .nav3links  .login{
         
         font-size: 0.8rem;
         
     }
     
-
-    
-    header .nav3 .nav3div .nav3links .cart{
+    .nav3 .nav3div .nav3links .cart{
         gap: 0.2rem;
         padding: 1.1rem .6rem;
         margin-left: 0.5rem;
@@ -1309,54 +1490,99 @@ main .eleven div{
         line-height: 1rem;
     }
 
-    header .nav3 .nav3div .nav3links .cart p{
+    .nav3 .nav3div .nav3links .cart p{
         gap: 0.313rem;
         margin-top: 0.938rem;
     }
 
-    header .nav3 .nav3div .nav3links .cart .number{
+    .nav3 .nav3div .nav3links .cart .number{
     padding: 0.1rem 0.3rem;
     margin-left: 0.5rem;
     
     }
 
 
-    header .nav4 .nav4links .categories{
+    .nav4 .nav4links .categories{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .computer{
+    .nav4 .nav4links .computer{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .phones{
+    .nav4 .nav4links .phones{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .Electronics{
+    .nav4 .nav4links .Electronics{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .Fashion{
+    .nav4 .nav4links .Fashion{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .HomeKitchen{
+    .nav4 .nav4links .HomeKitchen{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .BabyToys{
+    .nav4 .nav4links .BabyToys{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .Others{
+    .nav4 .nav4links .Others{
         font-size: 0.8rem;
+    }
+    
+}
+
+@media(max-width:992px){
+    main .second .img{
+    background-color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.313rem;
+    
+}
+
+.nav4{
+    overflow-x: scroll;
+}
+
+}
+
+@media(max-width:952px){
+
+
+    header{
+
+        max-width: 100%;
+    }
+
+    .nav3{
+
+        max-width: 100%;
+    }
+
+    .nav3 .nav3div{
+        gap: 0.5rem;
+        
+    }
+
+    .nav3 .nav3div .logo a img{
+        height: 7vh;
+    }
+
+    main .ten div div a img{
+
+        height:8vh;
+        margin:45px 0;
+        margin-left:  10px;
     }
 
     
+
 }
 
 
 
-
-@media(max-width:768px){
+@media(max-width:894px){
 
     header{
        
@@ -1375,43 +1601,42 @@ main .eleven div{
     }
    
 
-    header .nav3 .nav3div .logo a img{
+    .nav3 .nav3div .logo a img{
         height: 8vh;
     }
     
-    header .nav3 .nav3div{
+    .nav3 .nav3div{
+        justify-content: space-around;
         gap: 0.8rem;
         
     }
     
-    header .nav3 .nav3div .logo{
+    .nav3 .nav3div .logo{
         display: none;
     }
 
-    header .nav3 .nav3div .nav3links  .storelink{
+    .nav3 .nav3div .nav3links  .storelink{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .sellonkonga{
+    .nav3 .nav3div .nav3links  .sellonkonga{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .helplink{
+    .nav3 .nav3div .nav3links  .helplink{
         
         font-size: 0.8rem;
         
     }
-    header .nav3 .nav3div .nav3links  .login{
+    .nav3 .nav3div .nav3links  .login{
         
         font-size: 0.8rem;
         
     }
-    
 
-    
-    header .nav3 .nav3div .nav3links .cart{
+    .nav3 .nav3div .nav3links .cart{
         gap: 0.2rem;
         padding: 1.1rem .6rem;
         margin-left: 0.5rem;
@@ -1420,112 +1645,276 @@ main .eleven div{
         line-height: 1rem;
     }
 
-    header .nav3 .nav3div .nav3links .cart p{
+    .nav3 .nav3div .nav3links .cart p{
         gap: 0.313rem;
         margin-top: 0.938rem;
     }
 
-    header .nav3 .nav3div .nav3links .cart .number{
+    .nav3 .nav3div .nav3links .cart .number{
     padding: 0.1rem 0.3rem;
     margin-left: 0.5rem;
     
     }
 
+    /* nav 4 */
 
-    header .nav4 .nav4links .categories{
+
+    .nav4 .nav4links .categories{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .computer{
+    .nav4 .nav4links .computer{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .phones{
+    .nav4 .nav4links .phones{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .Electronics{
+    .nav4 .nav4links .Electronics{
         font-size: 0.8rem;
     }
     
-    header .nav4 .nav4links .Fashion{
+    .nav4 .nav4links .Fashion{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .HomeKitchen{
+    .nav4 .nav4links .HomeKitchen{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .BabyToys{
+    .nav4 .nav4links .BabyToys{
         font-size: 0.8rem;
     }
-    header .nav4 .nav4links .Others{
+    .nav4 .nav4links .Others{
         font-size: 0.8rem;
     }
 
+
+
+    main .second .img{
+    background-color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 0.313rem;
+    
+    }
+
+    main .fifth .five{
+
+        background-color: white;
+        display: flex;
+        padding: 1%;
+        width: 97%;
+        margin:0 auto;
+        justify-content: space-around;
+        border-radius: 0.313rem;
+    
+    }
+    
+    main .fifth a img{
+    
+    width: 15vh;
+    }
     
 }
+
+@media(max-width:834px){
+    main .second .img{
+        padding: 0.3rem 0.7rem;
+    }
+
+    main .ten div div{
+        /* background-color: red; */
+    }
+
+    main .ten div div a img{
+
+        height:6vh;
+        margin:45px 0;
+        margin-left:  20px;
+    }
+}
+
+@media(max-width:802px){
+
+    main .second{
+        overflow-x: scroll;
+    }
+
+}
+
+@media (max-width:768px){
+
+    main{
+    padding-top: 1%;
+    }
+
+    main .first{
+        display: block;
+        gap: 1.5%;
+    }
+
+    main .first #carousel div div div img{
+
+        border-radius: 0.625rem;
+        height: 60vh;
+    }
+
+    main .first .mrcarousel{
+        margin-bottom: 0.615rem;
+        width: 100%!important;
+    }
+
+
+    main .first .rowimg{
+
+        width: 100%;
+        gap: 0.625rem;
+    }
+
+    main .first .rowimg .img1 img{
+
+        border-radius: 0.625rem;
+        height: 70vh;
+        width: 95%;
+    }
+
+    main .first .rowimg .img2 img{
+
+        border-radius: 0.625rem;
+        height: 70vh;
+        width: 95%;
+    }
+
+    main .first .rowimg .row2{
+
+        margin-top: 4vh;
+    }
+
+
+    
+    /* section 2 */
+    /* section 2 */
+    /* section 2 */
+
+    main .second{
+        display: none;
+    }
+
+    main .third{
+        display: none;
+    }
+
+
+    main .fourth div .c-body div a .img img{
+
+    height: 60vh;
+    }
+
+    main .fifth, main .six{
+        display: none;
+    }
+
+    main .ten div div a img{
+
+    height:8vh;
+    margin:45px 0;
+    }
+
+    main .eleven div{
+
+        padding:1.5%;
+        font-size: 0.9rem;
+    }
+}
+
 
 
 @media (max-width:767px) {
 
-    header .nav1ads a img{
-        display: block;
-     }
+    header{
 
+        display: none;
+    }
 
     header .nav2,.nav3,.nav4{
         display: none;
     }
+    .navsmallscreen .a .ads{
+    text-decoration: none;
+    height: auto;
+    width: 100%;
+    /* display: none; */
 
-    header .navsmallscreen .firstnav .logo a img{
+    }
+
+    .navsmallscreen .firstnav .logo a img{
 
         height: 7vh;
         margin-left: 0.625rem;
     }
 
-    header .navsmallscreen .firstnav .logo a{
+    .navsmallscreen .firstnav .logo a{
 
         text-decoration: none;
     }
 
-    header .navsmallscreen .firstnav .logo a i{
+    .navsmallscreen .firstnav .logo a i{
         font-size:1rem ;
         color: black;
     }
 
 
-    header .navsmallscreen{
+    .navsmallscreen{
         display: block;
-        /* background-color: red; */
-        padding: 0.625rem 0.938rem;
+        background-color: white;
+        /* padding: 0.625rem 0.938rem; */
+        padding-top: 0;
+        position: sticky;
+        top: 0;
+        z-index: 6;
+        padding-bottom: 10px;
     }
 
     
-    header .navsmallscreen .firstnav{
+    .navsmallscreen .firstnav{
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-
-    header .navsmallscreen .searchbutton{
+        margin:0 20px;
+        padding-top: 10px;
         /* background-color: green; */
-        margin-top:0.625rem ;
     }
 
-    header .navsmallscreen .firstnav .icon i{
+    .navsmallscreen .searchbutton{
+        /* background-color: green; */
+        margin:10px 20px;
+    }
+
+    .navsmallscreen .searchbutton .searchbut{
+
+        height: 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .navsmallscreen .firstnav .icon i{
 
         margin-right: 0.625rem;
        
     }
 
-    header .navsmallscreen .smallnavlink{
+    .smallnavlink{
         display: flex;
         justify-content: space-evenly;
         margin-top: 0.625rem;
-        padding: 0.625rem;
+        /* background-color: yellow; */
+        margin:0 10px;
+        /* padding: 0.625rem; */
     
     }
 
-    header .navsmallscreen .smallnavlink .brows a{
+    .smallnavlink .brows a{
 
         display: flex;
         flex-direction: column;
@@ -1534,7 +1923,15 @@ main .eleven div{
         color: #50545B;
     }
 
-    header .navsmallscreen .smallnavlink .fash a{
+    .smallnavlink .fash a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+    .smallnavlink .comp a{
 
         display: flex;
         flex-direction: column;
@@ -1543,7 +1940,7 @@ main .eleven div{
         color: #50545B;
     }
 
-    header .navsmallscreen .smallnavlink .comp a{
+    .smallnavlink .phones a{
 
         display: flex;
         flex-direction: column;
@@ -1552,7 +1949,7 @@ main .eleven div{
         color: #50545B;
     }
 
-    header .navsmallscreen .smallnavlink .phones a{
+    .smallnavlink .alldeals a{
 
         display: flex;
         flex-direction: column;
@@ -1561,35 +1958,67 @@ main .eleven div{
         color: #50545B;
     }
 
-    header .navsmallscreen .smallnavlink .alldeals a{
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: #50545B;
+    main .nine{
+
+        overflow-x: scroll;
     }
+   
     
+}
+
+@media(max-width:735px){
+
+    main .ten div div{
+        /* background-color: red; */
+    }
+
+    main .ten div div a img{
+
+        height:4vh;
+        margin:45px 0;
+        /* margin-left:10px; */
+    }
 }
 
 
 @media (max-width:425px){
 
-    header .navsmallscreen .smallnavlink{
-        /* background-color: red; */
-        display: flex;
-        justify-content: space-between;
+    .smallnavlink{
+
         margin-top: 0.625rem;
         padding: 0.625rem 0;
         font-size: 0.9rem;
     
     }
 
+    main .ten{
+
+        padding:0 10px;
+    }
+
+    main .ten div div{
+        height: 15vh;
+        /* background-color: green; */
+    }
+
+    main .ten div div a img{
+
+        height:4vh;
+        margin:35px 0;
+        margin-right:25px;
+    }
+
+
+    main .eleven{
+        display: none;
+    }
+
 }
 
 @media (max-width:375px){
 
-    header .navsmallscreen .smallnavlink{
+    .smallnavlink{
         /* background-color: red; */
         display: flex;
         justify-content: space-between;
@@ -1603,7 +2032,7 @@ main .eleven div{
 
 @media (max-width:320px){
 
-    header .navsmallscreen .smallnavlink{
+    .smallnavlink{
         /* background-color: red; */
         display: flex;
         justify-content: space-between;
@@ -1611,6 +2040,39 @@ main .eleven div{
         padding: 0.625rem 0;
         font-size: 0.6rem;
     
+    }
+
+    main .first .mrcarousel{
+        margin-bottom: 0.615rem;
+        width: 100%!important;
+    }
+
+
+    main .first .rowimg{
+
+        width: 100%;
+    }
+
+    main .first .rowimg .img1, main .first .rowimg .img2{
+
+        background-color: green;
+        height: 30vh;
+    }
+
+
+
+    main .first .rowimg .img1 img{
+
+        border-radius: 0.625rem;
+        height: 30vh;
+        width: 100%;
+    }
+
+    main .first .rowimg .img2 img{
+
+        border-radius: 0.625rem;
+        height: 30vh;
+        width: 100%;
     }
 
 }

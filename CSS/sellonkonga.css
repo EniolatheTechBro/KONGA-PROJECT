@@ -456,6 +456,14 @@ grid-template-areas:'. . . .'
                     '. . . .';
 }
 
+
+.navsmallscreen, .footersmallscreen{
+    display: none;
+}
+
+.four-respon{
+    display: none;
+}
 /* main styling */
 /* main styling */
 /* main styling */
@@ -803,6 +811,679 @@ grid-template-areas:'. . . .'
     color: #b5b5b5;
     font-size: 0.8rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+
+    .four{
+
+        background-color: #f5f5f5;
+        padding:20px 30px;
+        margin-top: -20px;
+        padding-bottom: 50px;
+       
+    
+    }
+    
+    .four .earn{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding:70px 100px;
+        position: relative;
+        /* gap: 40px; */
+    }
+    
+    .four .earn .text{
+        flex: 75%;
+        /* border: thin solid green; */
+        /* margin-top: -100px; */
+    }
+    
+    .four .earn .text h1{
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    
+    
+    .four .earn button{
+    
+        padding: 10px 30px; 
+        background-color: white;
+        border: 1px solid #ed017f;
+        color: #ed017f;
+        font-weight: 600;
+        border-radius: 0.313rem;
+    
+    }
+    
+    .four .img{
+    
+        position: absolute;
+        /* width: 100%; */
+        top: 100px;
+        left: 600px;
+        /* margin-top: 100px; */
+        /* border: thin solid red; */
+        
+    }
+    
+}
+
+
+
+
+
+@media(max-width:1150px){
+
+    /* for navbars */
+    
+    .nav3 .nav3div .logo{
+        width: 10%;
+    }
+       
+    .nav4{
+        font-size: 0.8rem;
+        /* overflow-x: scroll; */
+    }
+
+    .four .img{
+    
+        position: absolute;
+        /* width: 100%; */
+        top: 100px;
+        left: 500px;
+        /* margin-top: 100px; */
+        /* border: thin solid red; */
+        
+    }
+
+
+    .footerfirst{
+
+        background-color: #1c1d1f;
+        padding:1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-top: 0.5%; */
+        min-height: 15vh;
+        font-size: 0.7rem;
+    
+    }
+}
+
+
+@media(max-width:1061px){
+
+    /* navbars */
+    
+.nav3 .nav3div .nav3links .cart{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #33b27b;
+    border-radius: 0.188rem;
+    padding: 1rem 1rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    transition: 0.5s;
+}
+
+.nav3 .nav3div .nav3links .cart .number{
+   background-color: rgb(255, 255, 255);
+   padding: 0.1rem 0.375rem;
+   margin-left: 0.5rem;
+   border-radius: 0.188rem;
+   color: black;
+   
+}
+
+.four .img{
+    
+    position: absolute;
+    /* width: 100%; */
+    top: 100px;
+    left: 450px;
+    /* margin-top: 100px; */
+    /* border: thin solid red; */
+    
+}
+
+}
+
+
+@media(max-width:1013px){
+
+     
+    .nav3 .nav3div .logo{
+        width: 8%;
+    }
+
+    
+.two{
+    background-color: #f5f5f5;
+    padding:20px 30px;
+}
+
+.two .Grow{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding:40px;
+    gap: 40px;
+    /* border: thin solid blue; */
+}
+
+
+.two .Grow .img img{
+    width: 100%;
+}
+
+.two .Grow .img{
+    flex: 40%;
+    
+    /* height: 5vh; */
+    /* border: thin solid red; */
+    
+}
+
+.two .Grow .text{
+    flex: 50%;
+    /* border: thin solid green; */
+    margin-top: 50px;
+}
+
+.two .Grow .text h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.two .Grow .text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.two .Grow button{
+
+    padding: 10px 30px; 
+    background-color: white;
+    border: 1px solid #ed017f;
+    color: #ed017f;
+    font-weight: 600;
+    border-radius: 0.313rem;
+
+}
+    
+}
+
+@media(max-width:965px){
+
+    .nav3 .nav3div .logo{
+        display: none;
+    }
+
+    .nav3 .nav3div .nav3links{
+        width: 100%;
+    }
+   
+
+    .four{
+        display: none;
+    }
+
+    .four-respon{
+
+        display: block;
+
+        background-color: black;
+        padding:20px 30px;
+        margin-top: -20px;
+        padding-bottom: 50px;
+        text-align: center;
+       
+    
+    }
+    
+    .four-respon .earn{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:70px 100px;
+    }
+    
+    .four-respon .earn .text{
+        flex: 75%;
+        margin-bottom: 40px;
+        color: white;
+        /* border: thin solid green; */
+        /* margin-top: -100px; */
+    }
+    
+    .four-respon .earn .text h1{
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    
+    
+    .four-respon .earn button{
+    
+        padding: 10px 30px; 
+        background-color: white;
+        border: 1px solid #ed017f;
+        color: #ed017f;
+        font-weight: 600;
+        border-radius: 0.313rem;
+    
+    }
+    
+  
+ 
+}
+
+@media(max-width:929px){
+
+    .nav3 .nav3div .nav3links a{
+
+        font-size: 0.8rem!important;
+    }
+    
+    .nav4{
+        overflow-x: scroll;
+    }
+
+}
+@media(max-width:847px){
+
+    .nav3 .nav3div .nav3links .cart{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background-color: #33b27b;
+        border-radius: 0.188rem;
+        padding: 1rem .5rem;
+        margin-left: 0.5rem;
+        color: white;
+        font-size: 0.8rem;
+        transition: 0.5s;
+    }
+
+
+}
+@media(max-width:823px){
+
+
+    
+    header .nav2 .navimg a img{
+   
+        height: 3vh;
+        padding-right: 2.125rem;  
+    }
+
+
+    .nav3{
+        overflow-x: scroll;
+    }
+
+    .footerfirst{
+
+        background-color: #1c1d1f;
+        padding:1%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-top: 0.5%; */
+        min-height: 15vh;
+        font-size: 0.7rem;
+    
+    }
+    .footerfirst a{
+        
+        text-decoration: none;
+        color: #b5b5b5;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    
+    }
+    .footerfirst .link .text{
+        padding-top: 20px;
+    }
+    
+    .footerfirst .link i{
+        color:#1c1d1f;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    
+    .footerfirst .inputbox{
+        display: flex;
+    }
+    
+    .footerfirst .inputbox .text{
+        padding: 7px;
+        border-top-left-radius:0.313rem;
+        border-bottom-left-radius: 0.313rem;
+        border: none;
+    }
+    
+    .footerfirst .inputbox button{
+    
+        padding: 10px;
+        border: none;
+        border-top-right-radius: 0.313rem;
+        border-bottom-right-radius: 0.313rem;
+        color: white;
+        font-weight: 500;
+        background-color: #ed017f;
+    }
+    
+    .footersecond{
+        background-color: #0c0c0c;
+        padding:1%;
+        color: #b5b5b5;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    
+
+
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .footerfirst{
+        display: none;
+    }
+
+    .footersecond{
+        display: none;
+    }
+
+    .copywrite{
+        display: none;
+    }
+
+}
+@media(max-width:767px){
+
+    header, .nav3, .nav4{
+        display: none;
+    }
+
+    .navsmallscreen .a .ads{
+        text-decoration: none;
+        height: auto;
+        width: 100%;
+    }
+    
+    .navsmallscreen .firstnav .logo a img{
+
+        height: 5vh;
+        margin-left: 0.625rem;
+    }
+
+    .navsmallscreen .firstnav .logo a{
+
+        text-decoration: none;
+    }
+
+    .navsmallscreen .firstnav .logo a i{
+        font-size:1rem ;
+        color: black;
+    }
+
+
+    .navsmallscreen{
+        display: block;
+        background-color: white;
+        /* padding: 0.625rem 0.938rem; */
+        padding-top: 0;
+        position: sticky;
+        top: 0;
+        z-index: 6;
+        padding-bottom: 10px;
+    }
+
+    
+    .navsmallscreen .firstnav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin:0 20px;
+        padding-top: 10px;
+        /* background-color: green; */
+    }
+
+    .navsmallscreen .searchbutton{
+        /* background-color: green; */
+        margin:10px 20px;
+    }
+
+    .navsmallscreen .searchbutton .searchbut{
+
+        height: 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .navsmallscreen .firstnav .icon i{
+
+        margin-right: 0.625rem;
+       
+    }
+
+    .smallnavlink{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0.625rem;
+        /* background-color: yellow; */
+        margin:0 10px;
+        /* padding: 0.625rem; */
+    
+    }
+
+    .smallnavlink .brows a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    .smallnavlink .fash a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+    .smallnavlink .comp a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    .smallnavlink .phones a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    .smallnavlink .alldeals a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+
+    .footersmallscreen{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        padding: 5px;
+    }
+    .footersmallscreen a{
+        text-decoration: none;
+        color: grey;
+    }
+    
+    .footersmallscreen a:active{
+        color: #94004f;
+    }
+
+
+
+}
+
+@media(max-width:712px){
+    .seven{
+
+        padding: 50px 40px;
+        background-color: #f5f5f5;
+    }
+}
+
+@media(max-width:585px){
+
+    .one div{
+        font-size: 2.5rem;
+    }
+    .two .Grow .img{
+    
+        display: none;
+    }
+
+    .four-respon .earn .text h1{
+
+        font-size:2rem ;
+    }
+
+    .four-respon .img img{
+
+        height: 30vh;
+
+    
+    }
+
+
+
+}
+@media(max-width:430px){
+
+    .smallnavlink{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0.625rem;
+        /* background-color: yellow; */
+        margin:0 10px;
+        /* padding: 0.625rem; */
+    
+    }
+
+    .smallnavlink .brows a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: #50545B;
+    }
+
+    .smallnavlink .fash a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+        font-size: 0.8rem;
+    }
+    .smallnavlink .comp a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+        font-size: 0.8rem;
+    }
+
+    .smallnavlink .alldeals a{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: #50545B;
+        font-size: 0.8rem;
+    }
+
+    .smallnavlink .phones a{
+        font-size: 0.8rem;
+    }
+
+
+    .four-respon .img img{
+
+        height: 20vh;
+
+    
+    }
+ 
+
+}
+
+@media(max-width:375px){
+
+    .one div{
+        font-size: 2rem;
+    }
+}
+
 
 
 

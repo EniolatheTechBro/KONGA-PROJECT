@@ -790,6 +790,7 @@ body{
     justify-content: space-around;
     /* margin-top: 0.5%; */
     height: 10vh;
+    font-size: 0.9rem;
 
 }
 .footerfirst a{

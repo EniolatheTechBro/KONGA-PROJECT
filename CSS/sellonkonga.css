@@ -638,6 +638,7 @@ grid-template-areas:'. . . .'
     align-items: center;
     justify-content: space-around;
     height: 10vh;
+    font-size: 0.9rem;
 
 }
 .footerfirst a{

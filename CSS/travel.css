@@ -8,11 +8,13 @@
 nav{
 
     display: flex;
-    gap: 60px;
+    /* 60px */
+    gap: 3.75rem;
     min-height: 10vh;
     /* border: thin solid blue; */
     background-color:#f8f9fa;
-    padding: 25px;
+    /* 25px */
+    padding: 1.563rem;
 
 }
 
@@ -26,7 +28,8 @@ nav .logo {
     flex: 60%;
     display: flex;
     align-items: center;
-    gap: 40px;
+    /* 40px */
+    gap: 2.5rem;
     /* border: thin solid red; */
 }
 
@@ -42,30 +45,41 @@ nav .icons div a{
 }
 nav .logo .contact a{
 
-    margin-left: 20px;
+    /* 20px */
+    margin-left: 1.25rem;
 
 }
 
 nav .logo .contact a i{
-    margin-right: 5px;
+    /* 5px */
+    margin-right: 0.313rem;
 }
 nav .icons{
     flex: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
-    gap:40px;
+    /* 30px */
+    margin-right: 1.875rem;
+    /* 40px */
+    gap:2.5rem;
     /* border: thin solid green; */
 }
 
 nav .icons button{
     background-color: #E7067D;
     color: white;
-    padding:5px 20px ;
+
+    /* 5px 20px */
+    padding:0.313rem 1.25rem ;
+    /* 5px */
     border-radius: 0.313rem;
 }
 
+
+nav .menu{
+    display: none;
+}
 
 /* main */
 /* main */
@@ -76,6 +90,7 @@ nav .icons button{
 
 .first div{
     /* border: thin solid red; */
+    display: flex;
     position: relative;
 }
 
@@ -86,25 +101,33 @@ nav .icons button{
 
 .first div button{
     position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.313rem;
     right: 0;
-    top: 79.5%;
     background-color: #ffae00;
-    padding:15px 30px;
-    z-index: 5;
+    /* 15px 30px */
+    padding:0.938rem 1.875rem;
+    /* z-index: 5; */
     font-weight: 500;
 }
 
 
 .two{
     background-color: #fff8ee;
-    padding: 50px;
+    /* 50px */
+    padding: 3.125rem;
 }
 
 .two .flight{
 
     background-color: white;
-    box-shadow: 0px 10px 20px 3px rgba(187, 185, 185, 0.5);
-    padding: 30px;
+    /* 0 10px 20px 3px */
+    box-shadow: 0px 0.625rem 1.25rem 0.188rem rgba(187, 185, 185, 0.5);
+    /* 30px */
+    padding: 1.875rem;
     border-top-right-radius: 0.625rem;
     border-bottom-right-radius: 0.625rem;
     border-bottom-left-radius: 0.625rem;
@@ -118,15 +141,18 @@ nav .icons button{
 
 .two .flightext p{
     background-color: white;
-    padding: 10px 15px;
-    margin-bottom: -4px;
+    /* 10px 15px */
+    padding: 0.625rem 0.938rem;
+    margin-bottom: -0.25rem;
 }
 
 .two .flight .radio{
     display: flex;
     align-items: center;
-    gap: 5px;
-    margin-bottom: 20px;
+    /* 5px */
+    gap: 0.313rem;
+    /* 20px */
+    margin-bottom: 1.25rem;
 }
 .two .flight .radio div{
 
@@ -144,7 +170,8 @@ nav .icons button{
 }
 .two .flight .box{
     display: flex;
-    gap: 30px;
+    /* 30px */
+    gap: 1.875rem;
 }
 
 .two .flight .box .boxes{
@@ -157,7 +184,8 @@ nav .icons button{
     display: flex;
     justify-content: space-between;
     /* height: 15vh; */
-    padding: 15px;
+    /* 15px */
+    padding: 0.938rem;
     padding-bottom: 0px;
 }
 
@@ -169,7 +197,7 @@ nav .icons button{
     background-color: #fff8ee;
     border: thin solid #E7067D;
     border-radius: 100%;
-    padding: 15px;
+    padding: 0.938rem;
 }
 
 
@@ -179,7 +207,7 @@ nav .icons button{
     border: thin solid #E7067D;
     border-radius: 0.625rem;
     flex: 35%;
-    padding: 15px;
+    padding: 0.938rem;
     padding-bottom: 0px;
     
 }
@@ -189,7 +217,8 @@ nav .icons button{
     border: thin solid #E7067D;
     border-radius: 0.625rem;
     flex:15%;
-    padding: 15px;
+    /* 15px */
+    padding: 0.938rem;
     padding-bottom: 0px;
 }
 
@@ -199,13 +228,15 @@ nav .icons button{
 
 .two .flight .button{
     /* border: thin solid red; */
-    margin-top: 30px;
+    /* 30px */
+    margin-top: 1.875rem;
     display: flex;
     justify-content: center;
 }
 .two .flight button{
     background-color: #E7067D;
-    padding:15px 40px;
+    /* 15px 40px */
+    padding:0.938rem 2.5rem;
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
@@ -214,7 +245,8 @@ nav .icons button{
 
 .three{
     background-color: #fff8ee;
-    padding: 50px;
+    /* 50px */
+    padding: 3.125rem;
     text-align: left;
 }
 
@@ -222,35 +254,41 @@ nav .icons button{
 
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
+    /* 20px */
+    gap: 1.25rem;
+    /* 50px */
+    margin-top: 3.125rem;
 }
 
 .three .images .kard{
-
-    min-height: 50vh;
     border: none;
-    box-shadow: 0px 10px 20px 3px rgba(187, 185, 185, 0.5);
+    box-shadow: 0px 10px 20px 3px rgba(41, 40, 40, 0.288);
+    min-height: 52vh;
+    transition: 1s;
 }
-.three .images #kard2{
-    height: 53vh;
+
+
+.three .images .kard:hover{
+    transform: scale(1.05);
 }
+
 
 .three .images .kard .text{
-    padding: 15px;
+    padding: 0.938rem;
+    /* border: thin solid red; */
 }
 
 .three .images .kard .text div:nth-of-type(1){
 
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .three .images .kard .text div:nth-of-type(2){
 
     font-weight: 400;
     font-size: 1.1rem;
     color:gray;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .three .images .kard .text button{
@@ -258,10 +296,12 @@ nav .icons button{
     background-color: #E7067D;
     color: white;
     width: 100%;
-    padding: 5px;
+    /* 5px */
+    padding: 0.313rem;
     border-radius: 0.313rem;
     font-weight: 700;
 }
+
 
 .four{
     background-color: #E7067D;
@@ -272,8 +312,15 @@ nav .icons button{
     background-color: #f3f6fd;
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding: 50px;
+    /* 50px */
+    gap: 3.125rem;
+    padding: 3.125rem;
+}
+
+.five .textdiv{
+    display: flex;
+    align-items: center;
+    gap: 3.125rem;
 }
 
 .five .input{
@@ -281,7 +328,8 @@ nav .icons button{
 }
 
 .five .input input{ 
-   padding:15px 100px 15px 15px;
+    /* 15px 100px 15px 15px */
+   padding:0.938rem 6.25rem 0.938rem 0.938rem;
    border: thin solid rgba(128, 128, 128, 0.5);
    border-top-left-radius: 0.313rem;
    border-bottom-left-radius: 0.313rem;
@@ -289,7 +337,8 @@ nav .icons button{
 }
 
 .five .input button{
-    padding:15px 40px;
+    /* 15px 40px */
+    padding:0.938rem 2.5rem;
     background-color: #E7067D;
     border-top-right-radius: 0.313rem;
     border-bottom-right-radius: 0.313rem;
@@ -300,9 +349,11 @@ nav .icons button{
 
 .footer{
     background-color: white;
-    padding:80px 70px;
+    /* 80px 70px */
+    padding:5rem 4.375rem;
     display: flex;
-    gap: 200px;
+    /* 200px */
+    gap: 12.5rem;
     
 }
 
@@ -319,14 +370,16 @@ nav .icons button{
 
     border-bottom: thin solid #E7067D;
     width: 60%;
-    padding-bottom: 5px;
-    margin-bottom: 25px;
+    padding-bottom: 0.313rem;
+    margin-bottom: 1.563rem;
 }
 
 .footer .contact .call{
-    border-left: 2px solid #E7067D;
-    margin-bottom: 20px;
-    padding-left: 10px;
+    border-left: 0.125rem solid #E7067D;
+    /* 20px */
+    margin-bottom: 1.25rem;
+    /* 10px */
+    padding-left: 0.625rem;
 }
 
 .footer .about a{
@@ -341,19 +394,22 @@ nav .icons button{
     font-weight: 500;
     border-bottom: thin solid #E7067D;
     /* width:100%; */
-    padding-bottom: 5px;
-    margin-bottom: 20px;
+    padding-bottom: 0.313rem;
+    /* 20px */
+    margin-bottom: 1.25rem;
 }
 
 .footer .about .abt{
     font-size: 1.1rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    /* 20px */
+    margin-bottom: 1.25rem;
 }
 
 .footer2{
     background-color: #f3f6fd;
-    padding:25px 70px;
+    /* 25px 70px */
+    padding:1.563rem 4.375rem;
     font-weight: 600;
     font-size: 0.95rem;
     display: flex;
@@ -361,3 +417,362 @@ nav .icons button{
     justify-content: space-between;
 }
 
+
+
+
+
+
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+/* media queries */
+
+
+
+
+
+@media(max-width:991px){
+    nav{
+        display: none;
+    }
+
+
+    .first div button{
+        padding:0.7rem 1.4rem;
+    
+    }
+    
+
+   .two .flight .radio{
+
+        margin-left: 10rem;
+   } 
+    .two .flight .box{
+    display: block;
+    }
+
+    .two .flight .box .boxes{
+
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0.625rem;
+    padding: 0.938rem;
+    }   
+
+
+    .two .flight .box .boxesdate{
+
+    width: 50%;
+    margin: auto;
+
+    background-color: #fff8ee;
+    border: thin solid #E7067D;
+    border-radius: 0.625rem;
+    flex: 35%;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    /* padding-bottom: 0px; */
+    
+    }
+    .two .flight .box .boxes2{
+
+    width: 50%;
+    margin: auto;
+    background-color: #fff8ee;
+    border: thin solid #E7067D;
+    border-radius: 0.625rem;
+    flex:15%;
+    /* 15px */
+    padding: 0.938rem;
+    }
+
+    .two .flight .arrow{
+    display: none;
+    }
+
+
+
+
+    .five{
+        background-color: #f3f6fd;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        /* 50px */
+        gap: 3.125rem;
+        padding: 3.125rem;
+    }
+
+}
+
+@media(max-width:785px){
+
+
+    .first div button{
+        padding:0.5rem 1rem;
+    
+    }
+
+    .two .flight .radio{
+
+        width: 80% ;
+        margin: auto;
+        margin-bottom: 0.6235rem;
+   } 
+    .two .flight .box{
+    display: block;
+    }
+
+    .two .flight .box .boxes{
+
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0.625rem;
+    padding: 0.938rem;
+    }
+
+
+    .two .flight .box .boxesdate{
+
+    width: 80%;
+    margin: auto;
+
+    background-color: #fff8ee;
+    border: thin solid #E7067D;
+    border-radius: 0.625rem;
+    flex: 35%;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    /* padding-bottom: 0px; */
+    
+    }
+    .two .flight .box .boxes2{
+
+    width: 80%;
+    margin: auto;
+    background-color: #fff8ee;
+    border: thin solid #E7067D;
+    border-radius: 0.625rem;
+    flex:15%;
+    /* 15px */
+    padding: 0.938rem;
+    }
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+
+    .three .images{
+
+        display: block;
+        justify-content: center;
+        /* 20px */
+        
+        width: 80%;
+        margin: auto;
+        gap: 1.25rem;
+        /* 50px */
+        margin-top: 3.125rem;
+    
+    }
+
+    .three .images .kard{
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width:760px){
+
+    nav{
+        display: flex;
+    }
+    nav .logo .contact{
+        display: none;
+    }
+
+    nav .icons{
+        display: none;
+    }
+
+    
+}
+@media(max-width:581px){
+
+    .three .images{
+
+        display: block;
+        justify-content: center;
+        /* 20px */
+        
+        width: 100%;
+        margin: auto;
+        gap: 1.25rem;
+        /* 50px */
+        margin-top: 3.125rem;
+    }
+
+    .footer{
+        background-color: white;
+        /* 80px 70px */
+        padding:5rem 4.375rem;
+        display: flex;
+        /* 200px */
+        gap: 6.5rem;
+
+    }
+        
+}
+@media(max-width:575px){
+
+    .first div button{
+        padding:0.3rem 0.8rem;
+        font-size: 0.9rem;
+    
+    }
+
+
+    .two{
+        background-color: #fff8ee;
+        /* 50px */
+        padding: 1.125rem;
+    }
+
+    .two .flight .button{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    .two .flight button{
+        background-color: #E7067D;
+        /* 15px 40px */
+        padding:0.4rem 1rem;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        border-radius: 0.313rem;
+    }
+    .footer{
+        background-color: white;
+        /* 80px 70px */
+        padding:5rem 2.375rem;
+        display: block;
+    }    
+
+    .footer .about .comp{
+
+        font-size: 1.2rem;
+        font-weight: 500;
+        border-bottom: thin solid #E7067D;
+        width:50%;
+        padding-bottom: 0.313rem;
+        /* 20px */
+        margin-bottom: 1.25rem;
+    }
+
+}
+@media(max-width:480px){
+
+
+    .first div a img{
+       
+        height: 20vh;
+    }
+    .first div button{
+        padding:0.1rem 0.4rem;
+        font-size: 0.8rem;
+    
+    }
+
+    .two .flight .radio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two .flight .box .boxes{
+
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0.625rem;
+        padding: 0.938rem;
+        }   
+    
+    
+        .two .flight .box .boxesdate{
+    
+        width: 100%;
+        margin: auto;
+    
+        background-color: #fff8ee;
+        border: thin solid #E7067D;
+        border-radius: 0.625rem;
+        flex: 35%;
+        padding: 1rem;
+        margin-bottom: 0.625rem;
+        /* padding-bottom: 0px; */
+        
+        }
+        .two .flight .box .boxes2{
+    
+        width: 100%;
+        margin: auto;
+        background-color: #fff8ee;
+        border: thin solid #E7067D;
+        border-radius: 0.625rem;
+        flex:15%;
+        /* 15px */
+        padding: 0.938rem;
+        }
+    
+        .two .flight .arrow{
+        display: none;
+        }
+    
+
+    .five .input input{ 
+        /* 15px 100px 15px 15px */
+       padding:0.938rem 3.25rem 0.938rem 0.938rem;
+    }
+    
+    .five .input button{
+        /* 15px 40px */
+        padding:0.938rem 0.5rem;
+        background-color: #E7067D;
+        border-top-right-radius: 0.313rem;
+        border-bottom-right-radius: 0.313rem;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .footer2{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:364px){
+
+    .five .input input{ 
+        /* 15px 100px 15px 15px */
+       padding:0.7rem 1.25rem 0.7rem 0.7rem;
+    }
+    
+    .five .input button{
+        /* 15px 40px */
+        padding:0.7rem 0.rem;
+        background-color: #E7067D;
+        border-top-right-radius: 0.313rem;
+        border-bottom-right-radius: 0.313rem;
+        color: white;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+}

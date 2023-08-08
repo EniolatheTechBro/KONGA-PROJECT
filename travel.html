@@ -41,6 +41,12 @@
 
             <button>Affliates</button>
         </div>
+
+        <div class="menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
     </nav>
 
     <section class="first">
@@ -62,12 +68,18 @@
         </div>
         <div class="flight">
            <div class="radio">
-             <input type="radio" name="radiof" id="radcolor" >
+             <div style="display: flex;align-items: center; gap: 0.313rem;">
+                <input type="radio" name="radiof" id="radcolor" >
              <div>One Way</div>
-             <input type="radio" name="radiof" id="radcolor">
+             </div>
+             <div style="display: flex;align-items: center; gap: 0.313rem;">
+                <input type="radio" name="radiof" id="radcolor">
              <div>Round Trip</div>
-             <input type="radio" name="radiof" id="radcolor">
-             <div>Multi CIty</div>
+             </div>
+            <div style="display: flex;align-items: center; gap: 0.313rem;">
+                <input type="radio" name="radiof" id="radcolor">
+                <div>Multi CIty</div>
+            </div>
            </div>
 
             <div class="box">
@@ -116,7 +128,7 @@
                     <button>VIEW MORE DETAILS</button>
                 </div>
             </div>
-            <div class="card kard">
+            <div class="card kard" id="kard">
                 <img src="https://travel.konga.com/assets/img/packages/gorgea.jpg" alt="">
                 <div class="text">
                     <div class="h5">Summer Break in Georgia</div>
@@ -144,7 +156,7 @@
                     <button>VIEW MORE DETAILS</button>
                 </div>
             </div>
-            <div class="card kard">
+            <div class="card kard" id="kard">
                 <img src="https://travel.konga.com/assets/img/packages/russia.jpg" alt="">
                 <div class="text">
                     <div class="h5">Magical Moscow at Russia</div>
@@ -166,11 +178,13 @@
     </section>
 
     <section class="five">
+       <div class="textdiv">
         <i class="fa-regular fa-envelope-open" style="font-size: 4rem;color: #E7067D;"></i>
         <div class="text">
             <p class="h5">Get the latest news and offers</p>
             <h1>Subscribe to our newsletter</h1>
         </div>
+       </div>
         <div class="input">
             <input type="email" placeholder="Enter your mail address" name="" id="inputmail">
             <button>Subscribe</button>
